@@ -1,0 +1,317 @@
+{
+  "Error": null,
+  "Status": 2,
+  "Detail": {
+    "BranchId": 1,
+    "ClassAttributes": [
+      {
+        "AlternativeValue": null,
+        "CollectionName": null,
+        "Detail": null,
+        "Id": 2521,
+        "Name": "Название",
+        "Tag": "Name",
+        "Value": "Playgo Развивающий игровой центр - трансформер"
+      },
+      {
+        "AlternativeValue": "CN",
+        "CollectionName": null,
+        "Detail": null,
+        "Id": 2525,
+        "Name": "Страна-изготовитель",
+        "Tag": "Country",
+        "Value": "Китай"
+      },
+      {
+        "AlternativeValue": null,
+        "CollectionName": null,
+        "Detail": null,
+        "Id": 2531,
+        "Name": "Упаковка",
+        "Tag": "Packing",
+        "Value": "Коробка"
+      },
+      {
+        "AlternativeValue": null,
+        "CollectionName": null,
+        "Detail": null,
+        "Id": 2537,
+        "Name": "Артикул",
+        "Tag": "Article",
+        "Value": "Play 2240"
+      },
+      {
+        "AlternativeValue": null,
+        "CollectionName": null,
+        "Detail": null,
+        "Id": 2540,
+        "Name": "Изображение",
+        "Tag": "Picture",
+        "Value": "audio_cd_covers/1012705011.jpg"
+      },
+      {
+        "AlternativeValue": null,
+        "CollectionName": null,
+        "Detail": {
+          "BranchId": 1,
+          "ClassAttributes": [
+            {
+              "AlternativeValue": null,
+              "CollectionName": null,
+              "Detail": null,
+              "Id": 820,
+              "Name": "Название",
+              "Tag": "Name",
+              "Value": "PlayGO"
+            },
+            {
+              "AlternativeValue": null,
+              "CollectionName": null,
+              "Detail": null,
+              "Id": 821,
+              "Name": "Оригинальное название",
+              "Tag": "NativeName",
+              "Value": "Playgo Toys"
+            },
+            {
+              "AlternativeValue": "BE",
+              "CollectionName": null,
+              "Detail": null,
+              "Id": 823,
+              "Name": "Страна",
+              "Tag": "Country",
+              "Value": "Бельгия"
+            }
+          ],
+          "ClassType": {
+            "Id": 139,
+            "Name": "03_Организация",
+            "Tag": "Firms_Organization",
+            "TypeId": 1,
+            "TypeName": "Контрагенты"
+          },
+          "DestinationId": null,
+          "Id": 2400726,
+          "ItemType": null,
+          "ModifyMomentValue": {
+            "DateTime": "/Date(-62135596800000)/",
+            "OffsetMinutes": 0
+          },
+          "ViewId": 3001
+        },
+        "Id": 2562,
+        "Name": "Производитель",
+        "Tag": "Producer",
+        "Value": null
+      },
+      {
+        "AlternativeValue": null,
+        "CollectionName": null,
+        "Detail": {
+          "BranchId": 1,
+          "ClassAttributes": [
+            {
+              "AlternativeValue": null,
+              "CollectionName": null,
+              "Detail": null,
+              "Id": 5189,
+              "Name": "Название",
+              "Tag": "Name",
+              "Value": "Playgo"
+            },
+            {
+              "AlternativeValue": null,
+              "CollectionName": null,
+              "Detail": {
+                "BranchId": 1,
+                "ClassAttributes": [
+                  {
+                    "AlternativeValue": null,
+                    "CollectionName": null,
+                    "Detail": null,
+                    "Id": 820,
+                    "Name": "Название",
+                    "Tag": "Name",
+                    "Value": "PlayGO"
+                  },
+                  {
+                    "AlternativeValue": null,
+                    "CollectionName": null,
+                    "Detail": null,
+                    "Id": 821,
+                    "Name": "Оригинальное название",
+                    "Tag": "NativeName",
+                    "Value": "Playgo Toys"
+                  },
+                  {
+                    "AlternativeValue": "BE",
+                    "CollectionName": null,
+                    "Detail": null,
+                    "Id": 823,
+                    "Name": "Страна",
+                    "Tag": "Country",
+                    "Value": "Бельгия"
+                  }
+                ],
+                "ClassType": {
+                  "Id": 139,
+                  "Name": "03_Организация",
+                  "Tag": "Firms_Organization",
+                  "TypeId": 1,
+                  "TypeName": "Контрагенты"
+                },
+                "DestinationId": null,
+                "Id": 2400726,
+                "ItemType": null,
+                "ModifyMomentValue": {
+                  "DateTime": "/Date(-62135596800000)/",
+                  "OffsetMinutes": 0
+                },
+                "ViewId": 3001
+              },
+              "Id": 5190,
+              "Name": "Производитель",
+              "Tag": "Firm",
+              "Value": null
+            }
+          ],
+          "ClassType": {
+            "Id": 329,
+            "Name": "03_Бренд",
+            "Tag": null,
+            "TypeId": 17,
+            "TypeName": "Серии"
+          },
+          "DestinationId": null,
+          "Id": 31585046,
+          "ItemType": null,
+          "ModifyMomentValue": {
+            "DateTime": "/Date(-62135596800000)/",
+            "OffsetMinutes": 0
+          },
+          "ViewId": 3001
+        },
+        "Id": 5266,
+        "Name": "Бренд",
+        "Tag": "Brand",
+        "Value": null
+      },
+      {
+        "AlternativeValue": null,
+        "CollectionName": null,
+        "Detail": {
+          "BranchId": 1,
+          "ClassAttributes": [
+            {
+              "AlternativeValue": "1179437",
+              "CollectionName": null,
+              "Detail": null,
+              "Id": 9646,
+              "Name": "Тип",
+              "Tag": "Type",
+              "Value": "Развивающий центр"
+            },
+            {
+              "AlternativeValue": null,
+              "CollectionName": null,
+              "Detail": {
+                "BranchId": 1,
+                "ClassAttributes": [
+                  {
+                    "AlternativeValue": null,
+                    "CollectionName": null,
+                    "Detail": null,
+                    "Id": 2521,
+                    "Name": "Название",
+                    "Tag": "Name",
+                    "Value": "Playgo Развивающий игровой центр - трансформер"
+                  }
+                ],
+                "ClassType": {
+                  "Id": 222,
+                  "Name": "03_Игра",
+                  "Tag": "Goods_Game",
+                  "TypeId": 4,
+                  "TypeName": "Носители"
+                },
+                "DestinationId": null,
+                "Id": 33040909,
+                "ItemType": {
+                  "Brief": "Игра",
+                  "Id": 25,
+                  "Name": "Игра"
+                },
+                "ModifyMomentValue": {
+                  "DateTime": "/Date(-62135596800000)/",
+                  "OffsetMinutes": 0
+                },
+                "ViewId": 3003
+              },
+              "Id": 10798,
+              "Name": "ОбрСсылка:Характеристики",
+              "Tag": "Item",
+              "Value": null
+            },
+            {
+              "AlternativeValue": null,
+              "CollectionName": null,
+              "Detail": null,
+              "Id": 9647,
+              "Name": "Название",
+              "Tag": "Name",
+              "Value": "Playgo Развивающий игровой центр - трансформер"
+            }
+          ],
+          "ClassType": {
+            "Id": 663,
+            "Name": "03_Игрушки",
+            "Tag": null,
+            "TypeId": 48,
+            "TypeName": "я_Игрушки"
+          },
+          "DestinationId": null,
+          "Id": 33491425,
+          "ItemType": null,
+          "ModifyMomentValue": {
+            "DateTime": "/Date(-62135596800000)/",
+            "OffsetMinutes": 0
+          },
+          "ViewId": 3001
+        },
+        "Id": 10767,
+        "Name": "Характеристики",
+        "Tag": "Capability",
+        "Value": null
+      },
+      {
+        "AlternativeValue": null,
+        "CollectionName": null,
+        "Detail": null,
+        "Id": 11710,
+        "Name": "Размер упаковки (ДхШхВ), см",
+        "Tag": "TDimensions",
+        "Value": "65 x 45 x 21"
+      }
+    ],
+    "ClassType": {
+      "Id": 222,
+      "Name": "03_Игра",
+      "Tag": "Goods_Game",
+      "TypeId": 4,
+      "TypeName": "Носители"
+    },
+    "DestinationId": null,
+    "Id": 33040909,
+    "ItemType": {
+      "Brief": "Игра",
+      "Id": 25,
+      "Name": "Игра"
+    },
+    "ModifyMomentValue": {
+      "DateTime": "/Date(-62135596800000)/",
+      "OffsetMinutes": 0
+    },
+    "ViewId": 3000
+  },
+  "DetailId": 33040909
+}

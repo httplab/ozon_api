@@ -2,13 +2,13 @@
 require 'spec_helper'
 require 'shared_contexts/having_configured_client'
 
-describe OzonApi::ItemService do
+describe OzonApi::DetailService do
   include_context 'having configured client'
   let(:subject) { described_class.new(client) }
-  let(:item_id) { '33040909' }
+  let(:detail_id) { '33040909' }
   let(:vcr_options) do
     [
-      'item_service',
+      'detail_service',
       {
         record: :new_episodes,
         match_requests_on: [:method, :uri]
@@ -16,10 +16,10 @@ describe OzonApi::ItemService do
     ]
   end
 
-  describe '#item_get' do
-    it 'returns item info' do
+  describe '#detail_get' do
+    it 'returns item details' do
       VCR.use_cassette(*vcr_options) do
-        verify(format: :json) { subject.item_get(item_id) }
+        verify(format: :json) { subject.detail_get(detail_id) }
       end
     end
   end

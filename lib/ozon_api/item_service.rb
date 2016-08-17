@@ -2,18 +2,14 @@
 module OzonApi
   class ItemService
 
+    BASE_PATH = 'ItemService'.freeze
+
     def initialize(client)
       @client = client
     end
 
-    def item_get(item_id)
-      @client.get([base_path, 'ItemGet'].join('/'), 'ItemId': item_id )
-    end
-
-    private
-
-    def base_path
-      @base_path ||= 'ItemService'.freeze
+    def item_get(id)
+      @client.get([BASE_PATH, 'ItemGet'].join('/'), 'ItemId': id )
     end
 
   end
