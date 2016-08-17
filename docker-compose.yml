@@ -1,5 +1,6 @@
 dev:
   build: .
+  env_file: .env
   volumes:
     - .:/home/apps/app
     - ~/data/gems-2.3:/.gem

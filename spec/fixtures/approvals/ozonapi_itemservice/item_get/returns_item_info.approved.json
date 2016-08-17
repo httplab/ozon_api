@@ -1,0 +1,54 @@
+{
+  "Error": null,
+  "Status": 2,
+  "Item": {
+    "Annotation": null,
+    "Author": null,
+    "Availability": "Товар отсутствует",
+    "AvailabilityDate": {
+      "DateTime": "/Date(1471444568000)/",
+      "OffsetMinutes": 180
+    },
+    "BargainSale": false,
+    "ClientRating": 0,
+    "ClientRatingCount": 0,
+    "Detail": null,
+    "DigitalTypeId": 0,
+    "Discount": 0,
+    "DiscountPrice": 3356,
+    "Id": 33040909,
+    "InSuite": 0,
+    "IsNew": false,
+    "IsSpecialPrice": false,
+    "ItemAvailabilityId": 5,
+    "ItemType": "Игра",
+    "ItemTypeId": 25,
+    "LookInSide": false,
+    "Media": null,
+    "Name": "Playgo Развивающий игровой центр - трансформер",
+    "Ordered": false,
+    "OtherName": null,
+    "Path": "l60/1012705011.jpg",
+    "Price": 3356,
+    "ScoreToAdd": 101,
+    "Url": "http://www.ozon.ru/context/detail/id/33040909/?partner=hellobabyapi",
+    "Weight": 3001,
+    "Year": 2015,
+    "BestsellerQty": 0,
+    "DescEndDate": {
+      "DateTime": "/Date(-62135596800000)/",
+      "OffsetMinutes": 0
+    },
+    "ExemplarsCountToAddScores": 0,
+    "FreeQty": 0,
+    "HasScoresDiscount": false,
+    "IsRecommended": false,
+    "ItemDiscount": 0,
+    "NewBeginDate": {
+      "DateTime": "/Date(1437141898000)/",
+      "OffsetMinutes": 180
+    },
+    "ScoresDiscountAmountNeeded": 0,
+    "ScoresDiscountPrice": 0
+  }
+}

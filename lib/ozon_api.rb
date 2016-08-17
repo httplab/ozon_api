@@ -1,4 +1,6 @@
 # frozen_string_literal: true
+
 module OzonApi
-  # Your code goes here...
+  require 'ozon_api/client'
+  require 'ozon_api/item_service'
 end
