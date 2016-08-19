@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://ows.ozon.ru/PartnerService/DetailService/DetailGet/?detailId=33040909&login=hellobabyapi&partnerClientId=1&password=9Od3z7oXYn8
+    uri: https://ows.ozon.ru/PartnerService/DetailService/DetailGet/?detailId=33040909&login=<OZON_LOGIN>&<OZON_PARTNER_CLIENT_ID>&password=<OZON_PASSWORD>
     body:
       encoding: US-ASCII
       string: ''
@@ -13,6 +13,8 @@ http_interactions:
       - "*/*"
       User-Agent:
       - Ruby
+      Host:
+      - ows.ozon.ru
   response:
     status:
       code: 200
@@ -25,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 17 Aug 2016 15:39:32 GMT
+      - Fri, 19 Aug 2016 09:51:09 GMT
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -142,5 +144,5 @@ http_interactions:
         ZVRpbWUiOiJcL0RhdGUoLTYyMTM1NTk2ODAwMDAwKVwvIiwiT2Zmc2V0TWlu
         dXRlcyI6MH0sIlZpZXdJZCI6MzAwMH0sIkRldGFpbElkIjozMzA0MDkwOX0=
     http_version: 
-  recorded_at: Wed, 17 Aug 2016 15:39:21 GMT
-recorded_with: VCR 3.0.3
+  recorded_at: Fri, 19 Aug 2016 09:50:57 GMT
+recorded_with: VCR 2.9.3

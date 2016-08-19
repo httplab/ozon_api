@@ -12,10 +12,17 @@ if ENV['TRAVIS_CI']
   SimpleCov.formatter = SimpleCov::Formatter::Codecov
 end
 
+Approvals.configure do |c|
+  c.excluded_json_keys = { datetime: 'DateTime' }
+end
+
 VCR.configure do |c|
   c.allow_http_connections_when_no_cassette = false
   c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   c.hook_into :webmock
+  c.filter_sensitive_data('<OZON_LOGIN>') { ENV['OZON_LOGIN'] }
+  c.filter_sensitive_data('<OZON_PASSWORD>') { ENV['OZON_PASSWORD'] }
+  c.filter_sensitive_data('<OZON_PARTNER_CLIENT_ID>') { "partnerClientId=#{ENV['OZON_PARTNER_CLIENT_ID']}" }
 end
 
 require 'ozon_api'

@@ -6,7 +6,7 @@
     "Author": null,
     "Availability": "Товар отсутствует",
     "AvailabilityDate": {
-      "DateTime": "/Date(1471444568000)/",
+      "DateTime": "<datetime>",
       "OffsetMinutes": 180
     },
     "BargainSale": false,
@@ -36,7 +36,7 @@
     "Year": 2015,
     "BestsellerQty": 0,
     "DescEndDate": {
-      "DateTime": "/Date(-62135596800000)/",
+      "DateTime": "<datetime>",
       "OffsetMinutes": 0
     },
     "ExemplarsCountToAddScores": 0,
@@ -45,7 +45,7 @@
     "IsRecommended": false,
     "ItemDiscount": 0,
     "NewBeginDate": {
-      "DateTime": "/Date(1437141898000)/",
+      "DateTime": "<datetime>",
       "OffsetMinutes": 180
     },
     "ScoresDiscountAmountNeeded": 0,

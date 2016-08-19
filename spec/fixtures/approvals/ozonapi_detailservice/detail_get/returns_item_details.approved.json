@@ -94,7 +94,7 @@
           "Id": 2400726,
           "ItemType": null,
           "ModifyMomentValue": {
-            "DateTime": "/Date(-62135596800000)/",
+            "DateTime": "<datetime>",
             "OffsetMinutes": 0
           },
           "ViewId": 3001
@@ -164,7 +164,7 @@
                 "Id": 2400726,
                 "ItemType": null,
                 "ModifyMomentValue": {
-                  "DateTime": "/Date(-62135596800000)/",
+                  "DateTime": "<datetime>",
                   "OffsetMinutes": 0
                 },
                 "ViewId": 3001
@@ -186,7 +186,7 @@
           "Id": 31585046,
           "ItemType": null,
           "ModifyMomentValue": {
-            "DateTime": "/Date(-62135596800000)/",
+            "DateTime": "<datetime>",
             "OffsetMinutes": 0
           },
           "ViewId": 3001
@@ -242,7 +242,7 @@
                   "Name": "Игра"
                 },
                 "ModifyMomentValue": {
-                  "DateTime": "/Date(-62135596800000)/",
+                  "DateTime": "<datetime>",
                   "OffsetMinutes": 0
                 },
                 "ViewId": 3003
@@ -273,7 +273,7 @@
           "Id": 33491425,
           "ItemType": null,
           "ModifyMomentValue": {
-            "DateTime": "/Date(-62135596800000)/",
+            "DateTime": "<datetime>",
             "OffsetMinutes": 0
           },
           "ViewId": 3001
@@ -308,7 +308,7 @@
       "Name": "Игра"
     },
     "ModifyMomentValue": {
-      "DateTime": "/Date(-62135596800000)/",
+      "DateTime": "<datetime>",
       "OffsetMinutes": 0
     },
     "ViewId": 3000
