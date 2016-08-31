@@ -7,7 +7,7 @@ module OzonApi
   class Client
     InvalidConfigurationError = Class.new(StandardError)
 
-    CONFIGURATION_KEYS = [:scheme, :host, :base_path, :login, :password, :partner_client_id, :out].freeze
+    CONFIGURATION_KEYS = [:scheme, :host, :base_path, :login, :password, :out].freeze
 
     def initialize(hsh = {})
       @config = hsh.select do |key, _|
@@ -15,7 +15,7 @@ module OzonApi
       end
     end
 
-    def get(path, params)
+    def get(path, params = {})
       uri = URI("#{scheme}://#{host}/#{base_path}/#{path}/")
       params.merge!(default_params)
       uri.query = URI.encode_www_form(params)
@@ -59,8 +59,7 @@ module OzonApi
     def default_params
       @default_params ||= {
         login: login,
-        password: password,
-        partnerClientId: partner_client_id
+        password: password
       }.freeze
     end
 
@@ -88,12 +87,6 @@ module OzonApi
       @password = @config[:password] || ENV['OZON_PASSWORD']
       raise InvalidConfigurationError, 'Missing OZON_PASSWORD' if @password.nil?
       @password
-    end
-
-    def partner_client_id
-      @partner_client_id = @config[:partner_client_id] || ENV['OZON_PARTNER_CLIENT_ID']
-      raise InvalidConfigurationError, 'Missing OZON_PARTNER_CLIENT_ID' if @partner_client_id.nil?
-      @partner_client_id
     end
 
     def out
