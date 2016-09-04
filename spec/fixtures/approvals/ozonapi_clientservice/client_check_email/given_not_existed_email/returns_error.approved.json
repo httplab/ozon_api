@@ -1,0 +1,8 @@
+{
+  "Error": {
+    "ErrorCode": "Client_Email_CheckFailed",
+    "ErrorMessage": null
+  },
+  "Status": 1,
+  "LoginEqualsEmail": null
+}
