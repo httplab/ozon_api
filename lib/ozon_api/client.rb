@@ -20,6 +20,7 @@ module OzonApi
       params.merge!(default_params)
       uri.query = URI.encode_www_form(params)
       response = Net::HTTP.get(uri)
+
       if out
         out << "Ozon get:\n"
         out << uri.to_s
@@ -27,7 +28,30 @@ module OzonApi
         out << response
         out << "\n"
       end
+
       JSON.parse(response)
+    end
+
+    def post(path, params)
+      query = URI.encode_www_form(default_params.merge(params))
+      uri   = URI("#{scheme}://#{host}/#{base_path}/#{path}/?#{query}")
+
+      http = Net::HTTP.new(uri.host, uri.port)
+      http.use_ssl = true
+      http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+
+      request = Net::HTTP::Post.new(uri)
+      response = http.request(request)
+
+      if out
+        out << "Ozon post:\n"
+        out << uri.to_s
+        out << "Ozon response:\n"
+        out << response
+        out << "\n"
+      end
+
+      JSON.parse(response.read_body)
     end
 
     private

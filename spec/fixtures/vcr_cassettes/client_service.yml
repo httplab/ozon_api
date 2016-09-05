@@ -1,0 +1,168 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://ows.ozon.ru/PartnerService/ClientService/PartnerClientRegistration/?clientPassword=userhttplab&email=user@httplab.ru&firstName=Phillip&lastName=Morris&login=<OZON_LOGIN>&partnerClientId=hb1&password=<OZON_PASSWORD>&spamSubscribe=false&userAgent=%27%27&userIp=%27%27
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '25'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 04 Sep 2016 10:22:13 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Error":null,"Status":2}'
+    http_version: 
+  recorded_at: Sun, 04 Sep 2016 10:22:13 GMT
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/ClientService/ClientCheckEmail/?email=user@httplab.ru&login=<OZON_LOGIN>&<OZON_PARTNER_CLIENT_ID>&password=<OZON_PASSWORD>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '49'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 04 Sep 2016 10:43:41 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Error":null,"Status":2,"LoginEqualsEmail":true}'
+    http_version: 
+  recorded_at: Sun, 04 Sep 2016 10:43:40 GMT
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/ClientService/ClientCheckEmail/?email=not-user@httplab.ru&login=<OZON_LOGIN>&<OZON_PARTNER_CLIENT_ID>&password=<OZON_PASSWORD>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '105'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 04 Sep 2016 10:43:53 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Error":{"ErrorCode":"Client_Email_CheckFailed","ErrorMessage":null},"Status":1,"LoginEqualsEmail":null}'
+    http_version: 
+  recorded_at: Sun, 04 Sep 2016 10:43:53 GMT
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/ClientService/ClientLogin/?clientLogin=user@httplab.ru&clientPassword=userhttplab&login=<OZON_LOGIN>&<OZON_PARTNER_CLIENT_ID>&password=<OZON_PASSWORD>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '25'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 04 Sep 2016 10:51:41 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Error":null,"Status":2}'
+    http_version: 
+  recorded_at: Sun, 04 Sep 2016 10:51:40 GMT
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/ClientService/ClientLogin/?clientLogin=not-user@httplab.ru&clientPassword=userhttplab&login=<OZON_LOGIN>&<OZON_PARTNER_CLIENT_ID>&password=<OZON_PASSWORD>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '88'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 04 Sep 2016 10:59:05 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Error":{"ErrorCode":"Client_ExistingUser_LoginFailed","ErrorMessage":null},"Status":1}'
+    http_version: 
+  recorded_at: Sun, 04 Sep 2016 10:59:05 GMT
+recorded_with: VCR 3.0.3
