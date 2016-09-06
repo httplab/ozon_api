@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://ows.ozon.ru/PartnerService/ItemService/ItemGet/?ItemId=33040909&login=<OZON_LOGIN>&<OZON_PARTNER_CLIENT_ID>&password=<OZON_PASSWORD>
+    uri: https://ows.ozon.ru/PartnerService/ItemService/ItemGet/?ItemId=33040909&login=<OZON_LOGIN>&password=<OZON_PASSWORD>
     body:
       encoding: US-ASCII
       string: ''
@@ -27,14 +27,14 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Fri, 19 Aug 2016 09:51:09 GMT
+      - Fri, 02 Sep 2016 11:50:48 GMT
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJFcnJvciI6bnVsbCwiU3RhdHVzIjoyLCJJdGVtIjp7IkFubm90YXRpb24i
         Om51bGwsIkF1dGhvciI6bnVsbCwiQXZhaWxhYmlsaXR5Ijoi0KLQvtCy0LDR
         gCDQvtGC0YHRg9GC0YHRgtCy0YPQtdGCIiwiQXZhaWxhYmlsaXR5RGF0ZSI6
-        eyJEYXRlVGltZSI6IlwvRGF0ZSgxNDcxNjAwMjY5MDAwKVwvIiwiT2Zmc2V0
+        eyJEYXRlVGltZSI6IlwvRGF0ZSgxNDcyODE3MDQ4MDAwKVwvIiwiT2Zmc2V0
         TWludXRlcyI6MTgwfSwiQmFyZ2FpblNhbGUiOmZhbHNlLCJDbGllbnRSYXRp
         bmciOjAsIkNsaWVudFJhdGluZ0NvdW50IjowLCJEZXRhaWwiOm51bGwsIkRp
         Z2l0YWxUeXBlSWQiOjAsIkRpc2NvdW50IjowLCJEaXNjb3VudFByaWNlIjoz
@@ -57,5 +57,266 @@ http_interactions:
         MH0sIlNjb3Jlc0Rpc2NvdW50QW1vdW50TmVlZGVkIjowLCJTY29yZXNEaXNj
         b3VudFByaWNlIjowfX0=
     http_version: 
-  recorded_at: Fri, 19 Aug 2016 09:50:57 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Fri, 02 Sep 2016 11:50:34 GMT
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/ItemService/ItemsByIdListGet/?items=33040907,33040908,33040909&itemsOnPage=50&login=<OZON_LOGIN>&onlyForSale=false&pageNumber=1&password=<OZON_PASSWORD>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '3305'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 02 Sep 2016 11:50:48 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJFcnJvciI6bnVsbCwiU3RhdHVzIjoyLCJJdGVtcyI6W3siQW5ub3RhdGlv
+        biI6bnVsbCwiQXV0aG9yIjpudWxsLCJBdmFpbGFiaWxpdHkiOm51bGwsIkF2
+        YWlsYWJpbGl0eURhdGUiOnsiRGF0ZVRpbWUiOiJcL0RhdGUoLTYyMTM1NTk2
+        ODAwMDAwKVwvIiwiT2Zmc2V0TWludXRlcyI6MH0sIkJhcmdhaW5TYWxlIjpm
+        YWxzZSwiQ2xpZW50UmF0aW5nIjowLCJDbGllbnRSYXRpbmdDb3VudCI6MCwi
+        RGV0YWlsIjpudWxsLCJEaWdpdGFsVHlwZUlkIjowLCJEaXNjb3VudCI6MCwi
+        RGlzY291bnRQcmljZSI6MCwiSWQiOjMzMDQwOTA3LCJJblN1aXRlIjowLCJJ
+        c05ldyI6ZmFsc2UsIklzU3BlY2lhbFByaWNlIjpmYWxzZSwiSXRlbUF2YWls
+        YWJpbGl0eUlkIjo1LCJJdGVtVHlwZSI6ItCY0LPRgNCwIiwiSXRlbVR5cGVJ
+        ZCI6MjUsIkxvb2tJblNpZGUiOmZhbHNlLCJNZWRpYSI6ItCY0LPRgNCwIiwi
+        TmFtZSI6IlBsYXlnbyDQkNC60YLQuNCy0L3Ri9C5INGG0LXQvdGC0YAt0YHR
+        gtC+0LsiLCJPcmRlcmVkIjpmYWxzZSwiT3RoZXJOYW1lIjpudWxsLCJQYXRo
+        IjoiaHR0cDpcL1wvd3d3Lm96b24ucnVcL211bHRpbWVkaWFcL2F1ZGlvX2Nk
+        X2NvdmVyc1wvc21hbGxcLzEwMTI3MDUwMDkuZ2lmIiwiUHJpY2UiOjQ0MzMs
+        IlNjb3JlVG9BZGQiOjAsIlVybCI6Imh0dHA6XC9cL3d3dy5vem9uLnJ1XC9j
+        b250ZXh0XC9kZXRhaWxcL2lkXC8zMzA0MDkwN1wvP3BhcnRuZXI9PE9aT05f
+        TE9HSU4+IiwiV2VpZ2h0IjowLCJZZWFyIjoyMDE1LCJCZXN0c2VsbGVyUXR5
+        IjowLCJEZXNjRW5kRGF0ZSI6eyJEYXRlVGltZSI6IlwvRGF0ZSgtNjIxMzU1
+        OTY4MDAwMDApXC8iLCJPZmZzZXRNaW51dGVzIjowfSwiRXhlbXBsYXJzQ291
+        bnRUb0FkZFNjb3JlcyI6MCwiRnJlZVF0eSI6MCwiSGFzU2NvcmVzRGlzY291
+        bnQiOmZhbHNlLCJJc1JlY29tbWVuZGVkIjpmYWxzZSwiSXRlbURpc2NvdW50
+        IjowLCJOZXdCZWdpbkRhdGUiOnsiRGF0ZVRpbWUiOiJcL0RhdGUoMTQzNzE0
+        MTg5ODAwMClcLyIsIk9mZnNldE1pbnV0ZXMiOjE4MH0sIlNjb3Jlc0Rpc2Nv
+        dW50QW1vdW50TmVlZGVkIjowLCJTY29yZXNEaXNjb3VudFByaWNlIjowfSx7
+        IkFubm90YXRpb24iOm51bGwsIkF1dGhvciI6bnVsbCwiQXZhaWxhYmlsaXR5
+        IjpudWxsLCJBdmFpbGFiaWxpdHlEYXRlIjp7IkRhdGVUaW1lIjoiXC9EYXRl
+        KC02MjEzNTU5NjgwMDAwMClcLyIsIk9mZnNldE1pbnV0ZXMiOjB9LCJCYXJn
+        YWluU2FsZSI6ZmFsc2UsIkNsaWVudFJhdGluZyI6MCwiQ2xpZW50UmF0aW5n
+        Q291bnQiOjAsIkRldGFpbCI6bnVsbCwiRGlnaXRhbFR5cGVJZCI6MCwiRGlz
+        Y291bnQiOjAsIkRpc2NvdW50UHJpY2UiOjAsIklkIjozMzA0MDkwOCwiSW5T
+        dWl0ZSI6MCwiSXNOZXciOnRydWUsIklzU3BlY2lhbFByaWNlIjpmYWxzZSwi
+        SXRlbUF2YWlsYWJpbGl0eUlkIjo2LCJJdGVtVHlwZSI6ItCg0LDQt9Cy0LjQ
+        stCw0Y7RidC40LUg0LjQs9GA0YPRiNC60LgiLCJJdGVtVHlwZUlkIjoyNSwi
+        TG9va0luU2lkZSI6ZmFsc2UsIk1lZGlhIjoi0JjQs9GA0LAiLCJOYW1lIjoi
+        UGxheWdvINCg0LDQt9Cy0LjQstCw0Y7RidCw0Y8g0LjQs9GA0YPRiNC60LAg
+        XCLQm9Cw0LHQuNGA0LjQvdGCINGBINC+0LHQtdC30YzRj9C90LrQvtC5XCIs
+        IDQwINGB0LwiLCJPcmRlcmVkIjpmYWxzZSwiT3RoZXJOYW1lIjpudWxsLCJQ
+        YXRoIjoiaHR0cDpcL1wvd3d3Lm96b24ucnVcL211bHRpbWVkaWFcL2F1ZGlv
+        X2NkX2NvdmVyc1wvc21hbGxcLzEwMTI3MDUwMTAuZ2lmIiwiUHJpY2UiOjIx
+        MDMsIlNjb3JlVG9BZGQiOjAsIlVybCI6Imh0dHA6XC9cL3d3dy5vem9uLnJ1
+        XC9jb250ZXh0XC9kZXRhaWxcL2lkXC8zMzA0MDkwOFwvP3BhcnRuZXI9PE9a
+        T05fTE9HSU4+IiwiV2VpZ2h0IjowLCJZZWFyIjoyMDE1LCJCZXN0c2VsbGVy
+        UXR5IjoxLCJEZXNjRW5kRGF0ZSI6eyJEYXRlVGltZSI6IlwvRGF0ZSgxNDY3
+        OTgwNzg1MDAwKVwvIiwiT2Zmc2V0TWludXRlcyI6MTgwfSwiRXhlbXBsYXJz
+        Q291bnRUb0FkZFNjb3JlcyI6MCwiRnJlZVF0eSI6MCwiSGFzU2NvcmVzRGlz
+        Y291bnQiOmZhbHNlLCJJc1JlY29tbWVuZGVkIjpmYWxzZSwiSXRlbURpc2Nv
+        dW50IjowLCJOZXdCZWdpbkRhdGUiOnsiRGF0ZVRpbWUiOiJcL0RhdGUoMTQ2
+        ODA2NzE4NTAwMClcLyIsIk9mZnNldE1pbnV0ZXMiOjE4MH0sIlNjb3Jlc0Rp
+        c2NvdW50QW1vdW50TmVlZGVkIjowLCJTY29yZXNEaXNjb3VudFByaWNlIjow
+        fSx7IkFubm90YXRpb24iOm51bGwsIkF1dGhvciI6bnVsbCwiQXZhaWxhYmls
+        aXR5IjpudWxsLCJBdmFpbGFiaWxpdHlEYXRlIjp7IkRhdGVUaW1lIjoiXC9E
+        YXRlKC02MjEzNTU5NjgwMDAwMClcLyIsIk9mZnNldE1pbnV0ZXMiOjB9LCJC
+        YXJnYWluU2FsZSI6ZmFsc2UsIkNsaWVudFJhdGluZyI6MCwiQ2xpZW50UmF0
+        aW5nQ291bnQiOjAsIkRldGFpbCI6bnVsbCwiRGlnaXRhbFR5cGVJZCI6MCwi
+        RGlzY291bnQiOjAsIkRpc2NvdW50UHJpY2UiOjAsIklkIjozMzA0MDkwOSwi
+        SW5TdWl0ZSI6MCwiSXNOZXciOmZhbHNlLCJJc1NwZWNpYWxQcmljZSI6ZmFs
+        c2UsIkl0ZW1BdmFpbGFiaWxpdHlJZCI6NSwiSXRlbVR5cGUiOiLQmNCz0YDQ
+        sCIsIkl0ZW1UeXBlSWQiOjI1LCJMb29rSW5TaWRlIjpmYWxzZSwiTWVkaWEi
+        OiLQmNCz0YDQsCIsIk5hbWUiOiJQbGF5Z28g0KDQsNC30LLQuNCy0LDRjtGJ
+        0LjQuSDQuNCz0YDQvtCy0L7QuSDRhtC10L3RgtGAIC0g0YLRgNCw0L3RgdGE
+        0L7RgNC80LXRgCIsIk9yZGVyZWQiOmZhbHNlLCJPdGhlck5hbWUiOm51bGws
+        IlBhdGgiOiJodHRwOlwvXC93d3cub3pvbi5ydVwvbXVsdGltZWRpYVwvYXVk
+        aW9fY2RfY292ZXJzXC9zbWFsbFwvMTAxMjcwNTAxMS5naWYiLCJQcmljZSI6
+        MzM1NiwiU2NvcmVUb0FkZCI6MCwiVXJsIjoiaHR0cDpcL1wvd3d3Lm96b24u
+        cnVcL2NvbnRleHRcL2RldGFpbFwvaWRcLzMzMDQwOTA5XC8/cGFydG5lcj08
+        T1pPTl9MT0dJTj4iLCJXZWlnaHQiOjAsIlllYXIiOjIwMTUsIkJlc3RzZWxs
+        ZXJRdHkiOjAsIkRlc2NFbmREYXRlIjp7IkRhdGVUaW1lIjoiXC9EYXRlKC02
+        MjEzNTU5NjgwMDAwMClcLyIsIk9mZnNldE1pbnV0ZXMiOjB9LCJFeGVtcGxh
+        cnNDb3VudFRvQWRkU2NvcmVzIjowLCJGcmVlUXR5IjowLCJIYXNTY29yZXNE
+        aXNjb3VudCI6ZmFsc2UsIklzUmVjb21tZW5kZWQiOmZhbHNlLCJJdGVtRGlz
+        Y291bnQiOjAsIk5ld0JlZ2luRGF0ZSI6eyJEYXRlVGltZSI6IlwvRGF0ZSgx
+        NDM3MTQxODk4MDAwKVwvIiwiT2Zmc2V0TWludXRlcyI6MTgwfSwiU2NvcmVz
+        RGlzY291bnRBbW91bnROZWVkZWQiOjAsIlNjb3Jlc0Rpc2NvdW50UHJpY2Ui
+        OjB9XSwiVG90YWxJdGVtcyI6M30=
+    http_version: 
+  recorded_at: Fri, 02 Sep 2016 11:50:35 GMT
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/ItemService/ItemsByIdListGet/?items=33040907,33040908,33040909&itemsOnPage=50&login=<OZON_LOGIN>&onlyForSale=false&pageNumber=1&<OZON_PARTNER_CLIENT_ID>&password=<OZON_PASSWORD>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '3305'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 02 Sep 2016 18:07:36 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJFcnJvciI6bnVsbCwiU3RhdHVzIjoyLCJJdGVtcyI6W3siQW5ub3RhdGlv
+        biI6bnVsbCwiQXV0aG9yIjpudWxsLCJBdmFpbGFiaWxpdHkiOm51bGwsIkF2
+        YWlsYWJpbGl0eURhdGUiOnsiRGF0ZVRpbWUiOiJcL0RhdGUoLTYyMTM1NTk2
+        ODAwMDAwKVwvIiwiT2Zmc2V0TWludXRlcyI6MH0sIkJhcmdhaW5TYWxlIjpm
+        YWxzZSwiQ2xpZW50UmF0aW5nIjowLCJDbGllbnRSYXRpbmdDb3VudCI6MCwi
+        RGV0YWlsIjpudWxsLCJEaWdpdGFsVHlwZUlkIjowLCJEaXNjb3VudCI6MCwi
+        RGlzY291bnRQcmljZSI6MCwiSWQiOjMzMDQwOTA3LCJJblN1aXRlIjowLCJJ
+        c05ldyI6ZmFsc2UsIklzU3BlY2lhbFByaWNlIjpmYWxzZSwiSXRlbUF2YWls
+        YWJpbGl0eUlkIjo1LCJJdGVtVHlwZSI6ItCY0LPRgNCwIiwiSXRlbVR5cGVJ
+        ZCI6MjUsIkxvb2tJblNpZGUiOmZhbHNlLCJNZWRpYSI6ItCY0LPRgNCwIiwi
+        TmFtZSI6IlBsYXlnbyDQkNC60YLQuNCy0L3Ri9C5INGG0LXQvdGC0YAt0YHR
+        gtC+0LsiLCJPcmRlcmVkIjpmYWxzZSwiT3RoZXJOYW1lIjpudWxsLCJQYXRo
+        IjoiaHR0cDpcL1wvd3d3Lm96b24ucnVcL211bHRpbWVkaWFcL2F1ZGlvX2Nk
+        X2NvdmVyc1wvc21hbGxcLzEwMTI3MDUwMDkuZ2lmIiwiUHJpY2UiOjQ0MzMs
+        IlNjb3JlVG9BZGQiOjAsIlVybCI6Imh0dHA6XC9cL3d3dy5vem9uLnJ1XC9j
+        b250ZXh0XC9kZXRhaWxcL2lkXC8zMzA0MDkwN1wvP3BhcnRuZXI9PE9aT05f
+        TE9HSU4+IiwiV2VpZ2h0IjowLCJZZWFyIjoyMDE1LCJCZXN0c2VsbGVyUXR5
+        IjowLCJEZXNjRW5kRGF0ZSI6eyJEYXRlVGltZSI6IlwvRGF0ZSgtNjIxMzU1
+        OTY4MDAwMDApXC8iLCJPZmZzZXRNaW51dGVzIjowfSwiRXhlbXBsYXJzQ291
+        bnRUb0FkZFNjb3JlcyI6MCwiRnJlZVF0eSI6MCwiSGFzU2NvcmVzRGlzY291
+        bnQiOmZhbHNlLCJJc1JlY29tbWVuZGVkIjpmYWxzZSwiSXRlbURpc2NvdW50
+        IjowLCJOZXdCZWdpbkRhdGUiOnsiRGF0ZVRpbWUiOiJcL0RhdGUoMTQzNzE0
+        MTg5ODAwMClcLyIsIk9mZnNldE1pbnV0ZXMiOjE4MH0sIlNjb3Jlc0Rpc2Nv
+        dW50QW1vdW50TmVlZGVkIjowLCJTY29yZXNEaXNjb3VudFByaWNlIjowfSx7
+        IkFubm90YXRpb24iOm51bGwsIkF1dGhvciI6bnVsbCwiQXZhaWxhYmlsaXR5
+        IjpudWxsLCJBdmFpbGFiaWxpdHlEYXRlIjp7IkRhdGVUaW1lIjoiXC9EYXRl
+        KC02MjEzNTU5NjgwMDAwMClcLyIsIk9mZnNldE1pbnV0ZXMiOjB9LCJCYXJn
+        YWluU2FsZSI6ZmFsc2UsIkNsaWVudFJhdGluZyI6MCwiQ2xpZW50UmF0aW5n
+        Q291bnQiOjAsIkRldGFpbCI6bnVsbCwiRGlnaXRhbFR5cGVJZCI6MCwiRGlz
+        Y291bnQiOjAsIkRpc2NvdW50UHJpY2UiOjAsIklkIjozMzA0MDkwOCwiSW5T
+        dWl0ZSI6MCwiSXNOZXciOnRydWUsIklzU3BlY2lhbFByaWNlIjpmYWxzZSwi
+        SXRlbUF2YWlsYWJpbGl0eUlkIjo2LCJJdGVtVHlwZSI6ItCg0LDQt9Cy0LjQ
+        stCw0Y7RidC40LUg0LjQs9GA0YPRiNC60LgiLCJJdGVtVHlwZUlkIjoyNSwi
+        TG9va0luU2lkZSI6ZmFsc2UsIk1lZGlhIjoi0JjQs9GA0LAiLCJOYW1lIjoi
+        UGxheWdvINCg0LDQt9Cy0LjQstCw0Y7RidCw0Y8g0LjQs9GA0YPRiNC60LAg
+        XCLQm9Cw0LHQuNGA0LjQvdGCINGBINC+0LHQtdC30YzRj9C90LrQvtC5XCIs
+        IDQwINGB0LwiLCJPcmRlcmVkIjpmYWxzZSwiT3RoZXJOYW1lIjpudWxsLCJQ
+        YXRoIjoiaHR0cDpcL1wvd3d3Lm96b24ucnVcL211bHRpbWVkaWFcL2F1ZGlv
+        X2NkX2NvdmVyc1wvc21hbGxcLzEwMTI3MDUwMTAuZ2lmIiwiUHJpY2UiOjIx
+        MDMsIlNjb3JlVG9BZGQiOjAsIlVybCI6Imh0dHA6XC9cL3d3dy5vem9uLnJ1
+        XC9jb250ZXh0XC9kZXRhaWxcL2lkXC8zMzA0MDkwOFwvP3BhcnRuZXI9PE9a
+        T05fTE9HSU4+IiwiV2VpZ2h0IjowLCJZZWFyIjoyMDE1LCJCZXN0c2VsbGVy
+        UXR5IjoxLCJEZXNjRW5kRGF0ZSI6eyJEYXRlVGltZSI6IlwvRGF0ZSgxNDY3
+        OTgwNzg1MDAwKVwvIiwiT2Zmc2V0TWludXRlcyI6MTgwfSwiRXhlbXBsYXJz
+        Q291bnRUb0FkZFNjb3JlcyI6MCwiRnJlZVF0eSI6MCwiSGFzU2NvcmVzRGlz
+        Y291bnQiOmZhbHNlLCJJc1JlY29tbWVuZGVkIjpmYWxzZSwiSXRlbURpc2Nv
+        dW50IjowLCJOZXdCZWdpbkRhdGUiOnsiRGF0ZVRpbWUiOiJcL0RhdGUoMTQ2
+        ODA2NzE4NTAwMClcLyIsIk9mZnNldE1pbnV0ZXMiOjE4MH0sIlNjb3Jlc0Rp
+        c2NvdW50QW1vdW50TmVlZGVkIjowLCJTY29yZXNEaXNjb3VudFByaWNlIjow
+        fSx7IkFubm90YXRpb24iOm51bGwsIkF1dGhvciI6bnVsbCwiQXZhaWxhYmls
+        aXR5IjpudWxsLCJBdmFpbGFiaWxpdHlEYXRlIjp7IkRhdGVUaW1lIjoiXC9E
+        YXRlKC02MjEzNTU5NjgwMDAwMClcLyIsIk9mZnNldE1pbnV0ZXMiOjB9LCJC
+        YXJnYWluU2FsZSI6ZmFsc2UsIkNsaWVudFJhdGluZyI6MCwiQ2xpZW50UmF0
+        aW5nQ291bnQiOjAsIkRldGFpbCI6bnVsbCwiRGlnaXRhbFR5cGVJZCI6MCwi
+        RGlzY291bnQiOjAsIkRpc2NvdW50UHJpY2UiOjAsIklkIjozMzA0MDkwOSwi
+        SW5TdWl0ZSI6MCwiSXNOZXciOmZhbHNlLCJJc1NwZWNpYWxQcmljZSI6ZmFs
+        c2UsIkl0ZW1BdmFpbGFiaWxpdHlJZCI6NSwiSXRlbVR5cGUiOiLQmNCz0YDQ
+        sCIsIkl0ZW1UeXBlSWQiOjI1LCJMb29rSW5TaWRlIjpmYWxzZSwiTWVkaWEi
+        OiLQmNCz0YDQsCIsIk5hbWUiOiJQbGF5Z28g0KDQsNC30LLQuNCy0LDRjtGJ
+        0LjQuSDQuNCz0YDQvtCy0L7QuSDRhtC10L3RgtGAIC0g0YLRgNCw0L3RgdGE
+        0L7RgNC80LXRgCIsIk9yZGVyZWQiOmZhbHNlLCJPdGhlck5hbWUiOm51bGws
+        IlBhdGgiOiJodHRwOlwvXC93d3cub3pvbi5ydVwvbXVsdGltZWRpYVwvYXVk
+        aW9fY2RfY292ZXJzXC9zbWFsbFwvMTAxMjcwNTAxMS5naWYiLCJQcmljZSI6
+        MzM1NiwiU2NvcmVUb0FkZCI6MCwiVXJsIjoiaHR0cDpcL1wvd3d3Lm96b24u
+        cnVcL2NvbnRleHRcL2RldGFpbFwvaWRcLzMzMDQwOTA5XC8/cGFydG5lcj08
+        T1pPTl9MT0dJTj4iLCJXZWlnaHQiOjAsIlllYXIiOjIwMTUsIkJlc3RzZWxs
+        ZXJRdHkiOjAsIkRlc2NFbmREYXRlIjp7IkRhdGVUaW1lIjoiXC9EYXRlKC02
+        MjEzNTU5NjgwMDAwMClcLyIsIk9mZnNldE1pbnV0ZXMiOjB9LCJFeGVtcGxh
+        cnNDb3VudFRvQWRkU2NvcmVzIjowLCJGcmVlUXR5IjowLCJIYXNTY29yZXNE
+        aXNjb3VudCI6ZmFsc2UsIklzUmVjb21tZW5kZWQiOmZhbHNlLCJJdGVtRGlz
+        Y291bnQiOjAsIk5ld0JlZ2luRGF0ZSI6eyJEYXRlVGltZSI6IlwvRGF0ZSgx
+        NDM3MTQxODk4MDAwKVwvIiwiT2Zmc2V0TWludXRlcyI6MTgwfSwiU2NvcmVz
+        RGlzY291bnRBbW91bnROZWVkZWQiOjAsIlNjb3Jlc0Rpc2NvdW50UHJpY2Ui
+        OjB9XSwiVG90YWxJdGVtcyI6M30=
+    http_version: 
+  recorded_at: Fri, 02 Sep 2016 18:07:23 GMT
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/ItemService/ItemAvailabilitiesGet/?login=<OZON_LOGIN>&password=<OZON_PASSWORD>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '778'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 02 Sep 2016 18:29:35 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJFcnJvciI6bnVsbCwiU3RhdHVzIjoyLCJJdGVtQXZhaWxhYmlsaXRpZXMi
+        Olt7IklkIjoxLCJOYW1lIjoi0J3QsCDRgdC60LvQsNC00LUiLCJQcmlvcml0
+        eSI6MX0seyJJZCI6MiwiTmFtZSI6ItCe0YLQs9GA0YPQttCw0LXRgtGB0Y8g
+        0LIg0YLQtdGH0LXQvdC40LUg0LTQstGD0YUg0L3QtdC00LXQu9GMICgr0LLR
+        gNC10LzRjyDQtNC+0YHRgtCw0LLQutC4KSIsIlByaW9yaXR5Ijo0fSx7Iklk
+        IjozLCJOYW1lIjoi0J7RgtCz0YDRg9C20LDQtdGC0YHRjyDQsiDRgtC10YfQ
+        tdC90LjQtSAzLTQg0L3QtdC00LXQu9GMICgr0LLRgNC10LzRjyDQtNC+0YHR
+        gtCw0LLQutC4KSIsIlByaW9yaXR5Ijo1fSx7IklkIjo0LCJOYW1lIjoi0KLQ
+        vtCy0LDRgCDQvtGC0YHRg9GC0YHRgtCy0YPQtdGCIiwiUHJpb3JpdHkiOjZ9
+        LHsiSWQiOjUsIk5hbWUiOiLQotC+0LLQsNGAINC+0YLRgdGD0YLRgdGC0LLR
+        g9C10YIiLCJQcmlvcml0eSI6N30seyJJZCI6NiwiTmFtZSI6ItCe0YLQs9GA
+        0YPQttCw0LXRgtGB0Y8g0LIg0YLQtdGH0LXQvdC40LUgNy0xMCDQtNC90LXQ
+        uSAoK9Cy0YDQtdC80Y8g0LTQvtGB0YLQsNCy0LrQuCkiLCJQcmlvcml0eSI6
+        M30seyJJZCI6NywiTmFtZSI6ItCe0YLQs9GA0YPQttCw0LXRgtGB0Y8g0LIg
+        0YLQtdGH0LXQvdC40LUgMi0zINC00L3QtdC5ICgr0LLRgNC10LzRjyDQtNC+
+        0YHRgtCw0LLQutC4KSIsIlByaW9yaXR5IjoyfSx7IklkIjo4LCJOYW1lIjoi
+        0J/RgNC10LTQstCw0YDQuNGC0LXQu9GM0L3Ri9C5INC30LDQutCw0LciLCJQ
+        cmlvcml0eSI6OH1dfQ==
+    http_version: 
+  recorded_at: Fri, 02 Sep 2016 18:29:21 GMT
+recorded_with: VCR 3.0.3
