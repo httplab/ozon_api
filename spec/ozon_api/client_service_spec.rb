@@ -28,9 +28,9 @@ describe OzonApi::ClientService do
     context 'given not existed email' do
       let(:email) { 'not-user@httplab.ru' }
 
-      it 'returns error' do
+      it 'raises error' do
         VCR.use_cassette(*vcr_options) do
-          verify(format: :json) { subject.client_check_email(email) }
+          expect { subject.client_check_email(email) }.to raise_error(OzonApi::Client::ApiError)
         end
       end
     end
@@ -64,9 +64,10 @@ describe OzonApi::ClientService do
     context 'given not existed client' do
       let(:email) { 'not-user@httplab.ru' }
 
-      it 'returns error' do
+      it 'raises error' do
         VCR.use_cassette(*vcr_options) do
-          verify(format: :json) { subject.client_login(client_id, email, password) }
+          expect { subject.client_login(client_id, email, password) }
+            .to raise_error(OzonApi::Client::ApiError)
         end
       end
     end
