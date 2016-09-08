@@ -6,8 +6,10 @@ require 'json'
 module OzonApi
   class Client
     InvalidConfigurationError = Class.new(StandardError)
+    ApiError = Class.new(StandardError)
 
     CONFIGURATION_KEYS = [:scheme, :host, :base_path, :login, :password, :out].freeze
+    SUCCESS_STATUS = 2
 
     def initialize(hsh = {})
       @config = hsh.select do |key, _|
@@ -29,7 +31,7 @@ module OzonApi
         out << "\n"
       end
 
-      JSON.parse(response)
+      parse_response(response)
     end
 
     def post(path, params)
@@ -51,7 +53,7 @@ module OzonApi
         out << "\n"
       end
 
-      JSON.parse(response.read_body)
+      parse_response(response.read_body)
     end
 
     private
@@ -91,6 +93,16 @@ module OzonApi
 
     def out
       @config[:out]
+    end
+
+    def parse_response(data)
+      result = JSON.parse(data)
+
+      if result['Status'] == SUCCESS_STATUS && result['Error'].nil?
+        result
+      else
+        raise ApiError, result
+      end
     end
   end
 end
