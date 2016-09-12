@@ -1,0 +1,254 @@
+{
+  "Error": null,
+  "Status": 2,
+  "DeliveryModel": {
+    "DeliveryGroups": [
+      {
+        "Delivery": [
+          {
+            "DeliveryPointAddressId": 0,
+            "DeliveryPoints": [
+              {
+                "Address": "344010, г. Ростов на Дону, Театральный пр-т, д. 63",
+                "DeliveryPointAddressId": 570253,
+                "DeliverySumm": 149,
+                "DeliveryVariantId": 452,
+                "FirstName": "Ростов-На-Дону",
+                "FullDeliveryCost": 149,
+                "FullOrderSumm": 8954,
+                "HasDeliveryStatusDiscount": false,
+                "Icon": null,
+                "InfoDetailId": 7257718,
+                "IsOzon": 0,
+                "ItemSumm": 8805,
+                "Name": "Ozon.ru"
+              },
+              {
+                "Address": "344068, г. Ростов-на-Дону, проспект Михаила Нагибина, д. 43",
+                "DeliveryPointAddressId": 570490,
+                "DeliverySumm": 149,
+                "DeliveryVariantId": 452,
+                "FirstName": "Ростов-На-Дону",
+                "FullDeliveryCost": 149,
+                "FullOrderSumm": 8954,
+                "HasDeliveryStatusDiscount": false,
+                "Icon": null,
+                "InfoDetailId": 25452132,
+                "IsOzon": 0,
+                "ItemSumm": 8805,
+                "Name": "Ozon.ru"
+              },
+              {
+                "Address": "г. Ростов на Дону, ул. Р. Зорге , д. 13",
+                "DeliveryPointAddressId": 570614,
+                "DeliverySumm": 149,
+                "DeliveryVariantId": 452,
+                "FirstName": "Ростов-На-Дону",
+                "FullDeliveryCost": 149,
+                "FullOrderSumm": 8954,
+                "HasDeliveryStatusDiscount": false,
+                "Icon": null,
+                "InfoDetailId": 26461875,
+                "IsOzon": 0,
+                "ItemSumm": 8805,
+                "Name": "Ozon.ru"
+              },
+              {
+                "Address": "г. Ростов-на-Дону, бульвар Комарова, 30 (фасад)",
+                "DeliveryPointAddressId": 570967,
+                "DeliverySumm": 149,
+                "DeliveryVariantId": 452,
+                "FirstName": "Ростов-На-Дону",
+                "FullDeliveryCost": 149,
+                "FullOrderSumm": 8954,
+                "HasDeliveryStatusDiscount": false,
+                "Icon": null,
+                "InfoDetailId": 28045197,
+                "IsOzon": 0,
+                "ItemSumm": 8805,
+                "Name": "Ozon.ru"
+              },
+              {
+                "Address": "г. Ростов-на-Дону, ул. Вятская, 31, офис 217",
+                "DeliveryPointAddressId": 571668,
+                "DeliverySumm": 149,
+                "DeliveryVariantId": 452,
+                "FirstName": "Ростов-На-Дону",
+                "FullDeliveryCost": 149,
+                "FullOrderSumm": 8954,
+                "HasDeliveryStatusDiscount": false,
+                "Icon": null,
+                "InfoDetailId": 29723838,
+                "IsOzon": 0,
+                "ItemSumm": 8805,
+                "Name": "Ozon.ru"
+              },
+              {
+                "Address": "344010, г. Ростов-на-Дону, ул. Лермонтовская 102А, офис 1",
+                "DeliveryPointAddressId": 573036,
+                "DeliverySumm": 149,
+                "DeliveryVariantId": 452,
+                "FirstName": "Ростов-На-Дону",
+                "FullDeliveryCost": 149,
+                "FullOrderSumm": 8954,
+                "HasDeliveryStatusDiscount": false,
+                "Icon": null,
+                "InfoDetailId": 8799928,
+                "IsOzon": 0,
+                "ItemSumm": 8805,
+                "Name": "Ozon.ru"
+              },
+              {
+                "Address": "г. Ростов-на-Дону, Таганрогская ул., д.114 И",
+                "DeliveryPointAddressId": 574694,
+                "DeliverySumm": 149,
+                "DeliveryVariantId": 452,
+                "FirstName": "Ростов-На-Дону",
+                "FullDeliveryCost": 149,
+                "FullOrderSumm": 8954,
+                "HasDeliveryStatusDiscount": false,
+                "Icon": null,
+                "InfoDetailId": 135509753,
+                "IsOzon": 0,
+                "ItemSumm": 8805,
+                "Name": "Ozon.ru"
+              },
+              {
+                "Address": "г. Ростов-на-Дону, ул. 2-я Краснодарская, д.135А",
+                "DeliveryPointAddressId": 574700,
+                "DeliverySumm": 149,
+                "DeliveryVariantId": 452,
+                "FirstName": "Ростов-На-Дону",
+                "FullDeliveryCost": 149,
+                "FullOrderSumm": 8954,
+                "HasDeliveryStatusDiscount": false,
+                "Icon": null,
+                "InfoDetailId": 135515867,
+                "IsOzon": 0,
+                "ItemSumm": 8805,
+                "Name": "Ozon.ru"
+              },
+              {
+                "Address": "г. Ростов-на-Дону, пр-т Сельмаш, д. 15Б",
+                "DeliveryPointAddressId": 574871,
+                "DeliverySumm": 119,
+                "DeliveryVariantId": 452,
+                "FirstName": "Ростов-На-Дону",
+                "FullDeliveryCost": 119,
+                "FullOrderSumm": 8924,
+                "HasDeliveryStatusDiscount": false,
+                "Icon": null,
+                "InfoDetailId": 135800017,
+                "IsOzon": 0,
+                "ItemSumm": 8805,
+                "Name": "Ozon.ru"
+              }
+            ],
+            "DeliverySumm": 0,
+            "DeliveryVariantGroupId": 3,
+            "DeliveryVariantGroupName": "Пункты выдачи заказов",
+            "DeliveryVariantId": 452,
+            "Description": "",
+            "FullDeliveryCost": 0,
+            "FullOrderSumm": 0,
+            "HasDeliveryStatusDiscount": false,
+            "InfoDetailId": 17615581,
+            "ItemSumm": 0,
+            "Name": "Пункты выдачи заказов"
+          }
+        ],
+        "DeliveryGroupID": 3,
+        "DeliveryGroupName": "Пункты выдачи заказов"
+      },
+      {
+        "Delivery": [
+          {
+            "DeliveryPointAddressId": 0,
+            "DeliveryPoints": null,
+            "DeliverySumm": 189,
+            "DeliveryVariantGroupId": 1,
+            "DeliveryVariantGroupName": "Курьерская",
+            "DeliveryVariantId": 1766,
+            "Description": "",
+            "FullDeliveryCost": 189,
+            "FullOrderSumm": 8994,
+            "HasDeliveryStatusDiscount": false,
+            "InfoDetailId": 4751345,
+            "ItemSumm": 8805,
+            "Name": "Курьерская по Ростову-на-Дону"
+          },
+          {
+            "DeliveryPointAddressId": 0,
+            "DeliveryPoints": null,
+            "DeliverySumm": 722,
+            "DeliveryVariantGroupId": 1,
+            "DeliveryVariantGroupName": "Курьерская",
+            "DeliveryVariantId": 357,
+            "Description": "",
+            "FullDeliveryCost": 722,
+            "FullOrderSumm": 9527,
+            "HasDeliveryStatusDiscount": false,
+            "InfoDetailId": 5093921,
+            "ItemSumm": 8805,
+            "Name": "СПСР-Экспресс"
+          },
+          {
+            "DeliveryPointAddressId": 0,
+            "DeliveryPoints": null,
+            "DeliverySumm": 1223,
+            "DeliveryVariantGroupId": 1,
+            "DeliveryVariantGroupName": "Курьерская",
+            "DeliveryVariantId": 488,
+            "Description": "",
+            "FullDeliveryCost": 1223,
+            "FullOrderSumm": 10028,
+            "HasDeliveryStatusDiscount": false,
+            "InfoDetailId": 4870974,
+            "ItemSumm": 8805,
+            "Name": "DHL Express"
+          }
+        ],
+        "DeliveryGroupID": 1,
+        "DeliveryGroupName": "Курьерская"
+      },
+      {
+        "Delivery": [
+          {
+            "DeliveryPointAddressId": 0,
+            "DeliveryPoints": null,
+            "DeliverySumm": 784,
+            "DeliveryVariantGroupId": 2,
+            "DeliveryVariantGroupName": "Почта",
+            "DeliveryVariantId": 392,
+            "Description": "Срок доставки - от 2 до 6 недель после передачи заказа в службу доставки в зависимости от удаленности региона. <a href=\"javascript://\" onClick=\"showInfo(1687438);\"><img src=\"/graphics/ozon/order/question.gif\" alt=\"подробнее\" width=\"14\" height=\"14\" border=\"0\"></a>\r\nВнимание! При получении и оплате заказа, доставленного наложенным платежом, взимается плата по тарифу на пересылку внутренних простых почтовых переводов. \r\nПроцент оплаты зависит от пересылаемой суммы и не зависит от технологии пересылки денежных средств, более подробно ознакомиться с тарифами Вы можете на сайте  Федеральной Почтовой службы: http://www.russianpost.ru/portal/ru/home/financial/cybermoney_russia ",
+            "FullDeliveryCost": 784,
+            "FullOrderSumm": 9589,
+            "HasDeliveryStatusDiscount": false,
+            "InfoDetailId": 20007165,
+            "ItemSumm": 8805,
+            "Name": "Почта России, предоплата"
+          },
+          {
+            "DeliveryPointAddressId": 0,
+            "DeliveryPoints": null,
+            "DeliverySumm": 921,
+            "DeliveryVariantGroupId": 2,
+            "DeliveryVariantGroupName": "Почта",
+            "DeliveryVariantId": 55,
+            "Description": "Срок доставки - от 2 до 6 недель после передачи заказа в службу доставки в зависимости от удаленности региона. <a href=\"javascript://\" onClick=\"showInfo(1687438);\"><img src=\"/graphics/ozon/order/question.gif\" alt=\"подробнее\" width=\"14\" height=\"14\" border=\"0\"></a>\r\nВнимание! При получении и оплате заказа, доставленного наложенным платежом, взимается плата по тарифу на пересылку внутренних простых почтовых переводов. \r\nПроцент оплаты зависит от пересылаемой суммы и не зависит от технологии пересылки денежных средств, более подробно ознакомиться с тарифами Вы можете на сайте  Федеральной Почтовой службы: http://www.russianpost.ru/portal/ru/home/financial/cybermoney_russia ",
+            "FullDeliveryCost": 921,
+            "FullOrderSumm": 9726,
+            "HasDeliveryStatusDiscount": false,
+            "InfoDetailId": 4119776,
+            "ItemSumm": 8805,
+            "Name": "Почта России, оплата при получении"
+          }
+        ],
+        "DeliveryGroupID": 2,
+        "DeliveryGroupName": "Почта"
+      }
+    ],
+    "HaveRestrict": 0,
+    "ICount": 14
+  }
+}

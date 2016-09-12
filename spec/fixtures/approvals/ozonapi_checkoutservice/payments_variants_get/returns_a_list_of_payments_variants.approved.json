@@ -1,0 +1,144 @@
+{
+  "Error": null,
+  "Status": 2,
+  "PaymentModel": {
+    "ClientAccountSumm": 0,
+    "PaymentGroups": [
+      {
+        "GroupID": 2,
+        "GroupName": "Карты оплаты",
+        "PaymentTypes": [
+          {
+            "AdditionalInfo": "<small> Мы принимаем карты Visa, American Express и MasterCard. При получении заказа вам понадобится паспорт. <a href=\"javascript://\" onClick=\"showInfo(171531);\"><img src=\"/graphics/ozon/order/question.gif\" alt=\"подробнее\" width=\"14\" height=\"14\" border=\"0\"></a></small><br>",
+            "DeliverySumm": 1223,
+            "Discount": 0,
+            "FullOrderSumm": 10028,
+            "InfoDetailId": 4119669,
+            "ItemSumm": 8805,
+            "MenuIconPath": "http://static.ozone.ru/mobileapp/static/payment_variants/card.png",
+            "Name": "Банковской картой онлайн ",
+            "NoClientAccountPayment": 0,
+            "PaymentTypeId": 3,
+            "RequiredMobilePhone": false
+          },
+          {
+            "AdditionalInfo": "<small>Мы принимаем карты Visa и MasterCard. При получении заказа вам понадобится паспорт. <a href=\"javascript://\" onClick=\"showInfo(171531);\"><img src=\"/graphics/ozon/order/question.gif\" alt=\"подробнее\" width=\"14\" height=\"14\" border=\"0\"></a></small>",
+            "DeliverySumm": 1223,
+            "Discount": 0,
+            "FullOrderSumm": 10028,
+            "InfoDetailId": 15506590,
+            "ItemSumm": 8805,
+            "MenuIconPath": "http://static.ozone.ru/mobileapp/static/payment_variants/sber_thanks.png",
+            "Name": "Карта Сбербанк и бонусные \"СПАСИБО\"",
+            "NoClientAccountPayment": 0,
+            "PaymentTypeId": 77,
+            "RequiredMobilePhone": false
+          },
+          {
+            "AdditionalInfo": "<small> Мы принимаем карты Visa. При получении заказа вам понадобится паспорт. <a href=\"javascript://\" onClick=\"showInfo(171531);\"><img src=\"/graphics/ozon/order/question.gif\" alt=\"подробнее\" width=\"14\" height=\"14\" border=\"0\"></a></small><br>",
+            "DeliverySumm": 1223,
+            "Discount": 0,
+            "FullOrderSumm": 9147.5,
+            "InfoDetailId": 137907969,
+            "ItemSumm": 7924.5,
+            "MenuIconPath": "http://static.ozone.ru/mobileapp/static/payment_variants/visa.png",
+            "Name": "Visa <span style=\"font-size:11px; color:green\">-10% при оплате Visa на заказы от 1500 р.</span>",
+            "NoClientAccountPayment": 1,
+            "PaymentTypeId": 1155,
+            "RequiredMobilePhone": false
+          }
+        ]
+      },
+      {
+        "GroupID": 1,
+        "GroupName": "Наличные",
+        "PaymentTypes": [
+          {
+            "AdditionalInfo": "Оплата наличными при получении заказа, комиссия - 1,8%.",
+            "DeliverySumm": 1404,
+            "Discount": 0,
+            "FullOrderSumm": 10209,
+            "InfoDetailId": 4119690,
+            "ItemSumm": 8805,
+            "MenuIconPath": "http://static.ozone.ru/mobileapp/static/payment_variants/cash.png",
+            "Name": "Наличный расчет",
+            "NoClientAccountPayment": 0,
+            "PaymentTypeId": 60,
+            "RequiredMobilePhone": false
+          }
+        ]
+      },
+      {
+        "GroupID": 3,
+        "GroupName": "Электронные деньги",
+        "PaymentTypes": [
+          {
+            "AdditionalInfo": "Для владельцев карта «Сбербанка», зарегистрированных в «Сбербанк Онлайн». При получении заказа вам понадобится паспорт.",
+            "DeliverySumm": 1223,
+            "Discount": 0,
+            "FullOrderSumm": 10028,
+            "InfoDetailId": 5947299,
+            "ItemSumm": 8805,
+            "MenuIconPath": "http://static.ozone.ru/mobileapp/static/payment_variants/sberonline.png",
+            "Name": "Сбербанк Онлайн",
+            "NoClientAccountPayment": 0,
+            "PaymentTypeId": 74,
+            "RequiredMobilePhone": false
+          },
+          {
+            "AdditionalInfo": "",
+            "DeliverySumm": 1223,
+            "Discount": 0,
+            "FullOrderSumm": 10028,
+            "InfoDetailId": 33172443,
+            "ItemSumm": 8805,
+            "MenuIconPath": "http://static.ozone.ru/mobileapp/static/payment_variants/paypal.png",
+            "Name": "PayPal",
+            "NoClientAccountPayment": 1,
+            "PaymentTypeId": 655,
+            "RequiredMobilePhone": false
+          },
+          {
+            "AdditionalInfo": "При получении заказа Вам понадобится паспорт. <a href=\"javascript://\" onClick=\"showInfoA(2588085,'yandexmoney');\"><img src=\"/graphics/ozon/order/question.gif\" alt=\"подробнее\" width=\"14\" height=\"14\" border=\"0\"></a>",
+            "DeliverySumm": 1223,
+            "Discount": 0,
+            "FullOrderSumm": 10028,
+            "InfoDetailId": 4119686,
+            "ItemSumm": 8805,
+            "MenuIconPath": "http://static.ozone.ru/mobileapp/static/payment_variants/yandexmoney.png",
+            "Name": "Яндекс.Деньги",
+            "NoClientAccountPayment": 0,
+            "PaymentTypeId": 22,
+            "RequiredMobilePhone": false
+          },
+          {
+            "AdditionalInfo": "При получении заказа вам понадобится паспорт.",
+            "DeliverySumm": 1223,
+            "Discount": 0,
+            "FullOrderSumm": 10028,
+            "InfoDetailId": 4886099,
+            "ItemSumm": 8805,
+            "MenuIconPath": "http://static.ozone.ru/mobileapp/static/payment_variants/webmoney.png",
+            "Name": "WebMoney",
+            "NoClientAccountPayment": 1,
+            "PaymentTypeId": 59,
+            "RequiredMobilePhone": false
+          },
+          {
+            "AdditionalInfo": "При получении заказа вам понадобится паспорт.",
+            "DeliverySumm": 1223,
+            "Discount": 0,
+            "FullOrderSumm": 10028,
+            "InfoDetailId": 4119720,
+            "ItemSumm": 8805,
+            "MenuIconPath": "http://static.ozone.ru/mobileapp/static/payment_variants/qiwi.png",
+            "Name": "QIWI Wallet",
+            "NoClientAccountPayment": 1,
+            "PaymentTypeId": 56,
+            "RequiredMobilePhone": true
+          }
+        ]
+      }
+    ]
+  }
+}

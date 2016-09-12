@@ -1,0 +1,36 @@
+{
+  "Error": null,
+  "Status": 2,
+  "OrderDetails": [
+    {
+      "ClientAccountPayment": 0,
+      "ClientOrderStateId": 7,
+      "DateOrder": {
+        "DateTime": "<datetime>",
+        "OffsetMinutes": 180
+      },
+      "DeliveryPrice": 1404,
+      "DeliveryVariant": "DHL Express курьерка",
+      "DueDeliveryDate": {
+        "DateTime": "<datetime>",
+        "OffsetMinutes": 180
+      },
+      "FlexMaxDateTime": null,
+      "FlexMinDateTime": null,
+      "IsAssist": 0,
+      "IsOnline": 0,
+      "IsOrderCancel": true,
+      "IsPrePay": 0,
+      "IsPrePayName": "",
+      "Number": "18934603-0001",
+      "PaymentType": "Наличный расчет",
+      "PaymentTypeId": 60,
+      "State": "Ожидает начала обработки",
+      "StateChangeMoment": {
+        "DateTime": "<datetime>",
+        "OffsetMinutes": 180
+      },
+      "Summ": 10209
+    }
+  ]
+}

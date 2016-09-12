@@ -9,7 +9,7 @@ describe OzonApi::CartService do
   let(:partner_client_id) { 'hb1' }
 
   let(:vcr_options) do
-    ['cart_service', { record: :new_episodes,  match_requests_on: [:method, :uri] }]
+    ['cart_service', { record: :new_episodes, match_requests_on: [:method, :uri] }]
   end
 
   describe '#cart_get' do
@@ -21,16 +21,20 @@ describe OzonApi::CartService do
   end
 
   describe '#cart_add' do
+    let(:cart_items) do
+      [
+        { partner_id: 33_040_906, quantity: 1 },
+        { partner_id: 33_040_907, quantity: 2 },
+        { partner_id: 33_040_908, quantity: 3 }
+      ]
+    end
+
     it 'adds items to cart and returns order url' do
       VCR.use_cassette(*vcr_options) do
         verify(format: :json) do
           subject.cart_add(
             partner_client_id: partner_client_id,
-            cart_items: [
-              { partner_id: 33040906, quantity: 1 },
-              { partner_id: 33040907, quantity: 2 },
-              { partner_id: 33040908, quantity: 3 }
-            ]
+            cart_items: cart_items
           )
         end
       end
@@ -43,7 +47,7 @@ describe OzonApi::CartService do
         verify(format: :json) do
           subject.cart_remove(
             partner_client_id: partner_client_id,
-            cart_item_ids: [33040906, 33040907, 33040908]
+            cart_item_ids: [33_040_906, 33_040_907, 33_040_908]
           )
         end
       end

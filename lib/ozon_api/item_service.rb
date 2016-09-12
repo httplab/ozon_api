@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 module OzonApi
   class ItemService
-
-    BASE_PATH = 'ItemService'.freeze
+    BASE_PATH = 'ItemService'
 
     def initialize(client)
       @client = client
@@ -13,7 +12,7 @@ module OzonApi
     end
 
     def item_get(id)
-      @client.get([BASE_PATH, 'ItemGet'].join('/'), 'ItemId': id )
+      @client.get([BASE_PATH, 'ItemGet'].join('/'), 'ItemId': id)
     end
 
     def items_by_id_list_get(item_ids:, items_on_page: 50, page_number:, only_for_sale:, partner_client_id:)
@@ -26,6 +25,5 @@ module OzonApi
         'partnerClientId': partner_client_id
       )
     end
-
   end
 end

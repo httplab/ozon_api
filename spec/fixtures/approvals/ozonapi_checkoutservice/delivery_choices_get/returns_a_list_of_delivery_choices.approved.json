@@ -1,0 +1,14 @@
+{
+  "Error": null,
+  "Status": 2,
+  "DeliveryChoices": [
+    {
+      "DeliveryChoiceId": 1,
+      "Name": "В полной комплектации"
+    },
+    {
+      "DeliveryChoiceId": 2,
+      "Name": "По мере поступления"
+    }
+  ]
+}

@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 module OzonApi
   class ClientService
-
-    BASE_PATH = 'ClientService'.freeze
+    BASE_PATH = 'ClientService'
 
     def initialize(client)
       @client = client
@@ -36,6 +35,5 @@ module OzonApi
 
       @client.get([BASE_PATH, 'ClientLogin'].join('/'), params)
     end
-
   end
 end

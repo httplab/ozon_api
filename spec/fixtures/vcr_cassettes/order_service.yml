@@ -1,0 +1,327 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/OrderService/OrdersGet/?login=<OZON_LOGIN>&partnerClientId=hb1&password=<OZON_PASSWORD>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '673'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 13 Sep 2016 11:20:32 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJFcnJvciI6bnVsbCwiU3RhdHVzIjoyLCJPcmRlckRldGFpbHMiOlt7IkNs
+        aWVudEFjY291bnRQYXltZW50IjowLCJDbGllbnRPcmRlclN0YXRlSWQiOjcs
+        IkRhdGVPcmRlciI6eyJEYXRlVGltZSI6IlwvRGF0ZSgxNDczNzY1NTg0MDAw
+        KVwvIiwiT2Zmc2V0TWludXRlcyI6MTgwfSwiRGVsaXZlcnlQcmljZSI6MTQw
+        NCwiRGVsaXZlcnlWYXJpYW50IjoiREhMIEV4cHJlc3Mg0LrRg9GA0YzQtdGA
+        0LrQsCIsIkR1ZURlbGl2ZXJ5RGF0ZSI6eyJEYXRlVGltZSI6IlwvRGF0ZSgx
+        NDc0OTc1MTg0MDAwKVwvIiwiT2Zmc2V0TWludXRlcyI6MTgwfSwiRmxleE1h
+        eERhdGVUaW1lIjpudWxsLCJGbGV4TWluRGF0ZVRpbWUiOm51bGwsIklzQXNz
+        aXN0IjowLCJJc09ubGluZSI6MCwiSXNPcmRlckNhbmNlbCI6dHJ1ZSwiSXNQ
+        cmVQYXkiOjAsIklzUHJlUGF5TmFtZSI6IiIsIk51bWJlciI6IjE4OTM0NjAz
+        LTAwMDEiLCJQYXltZW50VHlwZSI6ItCd0LDQu9C40YfQvdGL0Lkg0YDQsNGB
+        0YfQtdGCIiwiUGF5bWVudFR5cGVJZCI6NjAsIlN0YXRlIjoi0J7QttC40LTQ
+        sNC10YIg0L3QsNGH0LDQu9CwINC+0LHRgNCw0LHQvtGC0LrQuCIsIlN0YXRl
+        Q2hhbmdlTW9tZW50Ijp7IkRhdGVUaW1lIjoiXC9EYXRlKDE0NzM3NjU1ODUw
+        MDApXC8iLCJPZmZzZXRNaW51dGVzIjoxODB9LCJTdW1tIjoxMDIwOX1dfQ==
+    http_version: 
+  recorded_at: Tue, 13 Sep 2016 11:20:21 GMT
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/OrderService/OrderGet/?login=<OZON_LOGIN>&orderNumber=18934603-0001&partnerClientId=hb1&password=<OZON_PASSWORD>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '2663'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 13 Sep 2016 11:24:03 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJFcnJvciI6bnVsbCwiU3RhdHVzIjoyLCJPcmRlciI6eyJBZGRpdGlvbk5h
+        bWUiOiIiLCJBZGRpdGlvblByaWNlIjowLCJBZGRyZXNzSWQiOjEzOTQ1MDQ4
+        NiwiQWRkcmVzc1RhaWwiOiLQkdGD0LTQtdC90L3QvtCy0YHQutC40Lkg0L/R
+        gNC+0YHQv9C10LrRgiwg0LTQvtC8IDM1LCDQutCy0LDRgNGC0LjRgNCwIDEy
+        LCDQv9C+0LTRitC10LfQtCA5LCDQutC+0LQg0LTQvtC80L7RhNC+0L3QsCAw
+        MDAsINGN0YLQsNC2IDEiLCJDaXR5Ijoi0KDQvtGB0YLQvtCyLdCd0LAt0JTQ
+        vtC90YMiLCJDbGllbnRBY2NvdW50UGF5bWVudFZhbHVlIjowLCJDbGllbnRP
+        cmRlclN0YXRlSWQiOjcsIkNvbW1lbnQiOiIiLCJDb21tZW50UmVxdWlyZWQi
+        OjEsIkNvdW50cnkiOiLQoNC+0YHRgdC40Y8iLCJEYXRlT3JkZXIiOnsiRGF0
+        ZVRpbWUiOiJcL0RhdGUoMTQ3Mzc2NTU4NDAwMClcLyIsIk9mZnNldE1pbnV0
+        ZXMiOjE4MH0sIkRlbGl2ZXJ5Q2hvaWNlIjoi0JIg0L/QvtC70L3QvtC5INC6
+        0L7QvNC/0LvQtdC60YLQsNGG0LjQuCIsIkRlbGl2ZXJ5UHJpY2UiOjE0MDQs
+        IkRlbGl2ZXJ5VmFyaWFudCI6IkRITCBFeHByZXNzINC60YPRgNGM0LXRgNC6
+        0LAiLCJEZWxpdmVyeVZhcmlhbnRJZCI6NDgxLCJEZWxpdmVyeVZhcmlhbnRU
+        eXBlSWQiOjIsIkRpc3RyaWN0IjoiIiwiRHVlRGVsaXZlcnlEYXRlIjp7IkRh
+        dGVUaW1lIjoiXC9EYXRlKDE0NzQ5NzUxODQwMDApXC8iLCJPZmZzZXRNaW51
+        dGVzIjoxODB9LCJGaXJzdE5hbWUiOiJUZXN0IiwiRmxleE1heERhdGVUaW1l
+        IjpudWxsLCJGbGV4TWluRGF0ZVRpbWUiOm51bGwsIklzT3JkZXJDYW5jZWwi
+        OnRydWUsIkl0ZW1zIjpbeyJJdGVtSWQiOjMzMDQwOTA4LCJJdGVtVHlwZSI6
+        ItCY0LPRgNCwIiwiSXRlbVR5cGVJZCI6MjUsIk5hbWUiOiJQbGF5Z28g0KDQ
+        sNC30LLQuNCy0LDRjtGJ0LDRjyDQuNCz0YDRg9GI0LrQsCBcItCb0LDQsdC4
+        0YDQuNC90YIg0YEg0L7QsdC10LfRjNGP0L3QutC+0LlcIiwgNDAg0YHQvCIs
+        IlF0eSI6MywiQW5ub3RhdGlvbiI6IiIsIkF1dGhvciI6IiIsIkNhbmNlbGVk
+        UXR5IjowLCJDbGllbnRPcmRlcklkIjozNzYyNTAyMCwiQ29taW5nRGF0ZSI6
+        eyJEYXRlVGltZSI6IlwvRGF0ZSgxNDc0OTc1MTg0MDAwKVwvIiwiT2Zmc2V0
+        TWludXRlcyI6MTgwfSwiSGFzU2NvcmVzRGlzY291bnQiOmZhbHNlLCJQYXRo
+        IjoiaHR0cDpcL1wvd3d3Lm96b24ucnVcL211bHRpbWVkaWFcL2F1ZGlvX2Nk
+        X2NvdmVyc1wvc21hbGxcLzEwMTI3MDUwMTAuZ2lmIiwiUHJlUmVsZWFzZSI6
+        MCwiUHJlUmVsZWFzZURhdGUiOnsiRGF0ZVRpbWUiOiJcL0RhdGUoLTIyMDg5
+        OTk2MDAwMDApXC8iLCJPZmZzZXRNaW51dGVzIjoxODB9LCJQcmljZSI6MjEw
+        MywiUHJvY2Vzc1F0eSI6MCwiUmVzUXR5IjowLCJTY29yZXNBZGRlZCI6MCwi
+        U2NvcmVzRGlzY291bnRBbW91bnROZWVkZWQiOjAsIlNjb3Jlc0Rpc2NvdW50
+        UHJpY2UiOjAsIlVybCI6Imh0dHA6XC9cL3d3dy5vem9uLnJ1XC9jb250ZXh0
+        XC9kZXRhaWxcL2lkXC8zMzA0MDkwOFwvP3BhcnRuZXI9PE9aT05fTE9HSU4+
+        In0seyJJdGVtSWQiOjMzMDQwOTA2LCJJdGVtVHlwZSI6ItCY0LPRgNCwIiwi
+        SXRlbVR5cGVJZCI6MjUsIk5hbWUiOiJQbGF5Z28g0KDQsNC30LLQuNCy0LDR
+        jtGJ0LjQuSDQuNCz0YDQvtCy0L7QuSDRhtC10L3RgtGAINC00LvRjyDRgdCw
+        0LzRi9GFINC80LDQu9C10L3RjNC60LjRhSIsIlF0eSI6MSwiQW5ub3RhdGlv
+        biI6IiIsIkF1dGhvciI6IiIsIkNhbmNlbGVkUXR5IjowLCJDbGllbnRPcmRl
+        cklkIjozNzYyNTAyMCwiQ29taW5nRGF0ZSI6eyJEYXRlVGltZSI6IlwvRGF0
+        ZSgxNDczNzY1NTg0MDAwKVwvIiwiT2Zmc2V0TWludXRlcyI6MTgwfSwiSGFz
+        U2NvcmVzRGlzY291bnQiOmZhbHNlLCJQYXRoIjoiaHR0cDpcL1wvd3d3Lm96
+        b24ucnVcL211bHRpbWVkaWFcL2F1ZGlvX2NkX2NvdmVyc1wvc21hbGxcLzEw
+        MTI3MDUwMDguZ2lmIiwiUHJlUmVsZWFzZSI6MCwiUHJlUmVsZWFzZURhdGUi
+        OnsiRGF0ZVRpbWUiOiJcL0RhdGUoLTIyMDg5OTk2MDAwMDApXC8iLCJPZmZz
+        ZXRNaW51dGVzIjoxODB9LCJQcmljZSI6MjQ5NiwiUHJvY2Vzc1F0eSI6MCwi
+        UmVzUXR5IjowLCJTY29yZXNBZGRlZCI6MCwiU2NvcmVzRGlzY291bnRBbW91
+        bnROZWVkZWQiOjAsIlNjb3Jlc0Rpc2NvdW50UHJpY2UiOjAsIlVybCI6Imh0
+        dHA6XC9cL3d3dy5vem9uLnJ1XC9jb250ZXh0XC9kZXRhaWxcL2lkXC8zMzA0
+        MDkwNlwvP3BhcnRuZXI9PE9aT05fTE9HSU4+In1dLCJMYXN0TmFtZSI6IlRl
+        c3QiLCJNYXhTcGFzaWJvIjowLCJNaWRkbGVOYW1lIjoiIiwiT3JkZXJTdW1t
+        Ijo4ODA1LCJQYXlPcmRlclN1bW0iOjEwMjA5LCJQYXltZW50VHlwZSI6ItCd
+        0LDQu9C40YfQvdGL0Lkg0YDQsNGB0YfQtdGCIiwiUGF5bWVudFR5cGVJZCI6
+        NjAsIlBob25lIjoiOTA5MDAwMDAwMCIsIlBob25lUmVxdWlyZWQiOjEsIlBv
+        c3RpbmdzIjpudWxsLCJSZWdpb24iOm51bGwsIlNjb3JlVG9BZGQiOjAsIlNj
+        b3JlVG9QYXkiOjAsIlNob3dSZXBlYXRPcmRlciI6MCwiU3RhdGUiOiLQntC2
+        0LjQtNCw0LXRgiDQvdCw0YfQsNC70LAg0L7QsdGA0LDQsdC+0YLQutC4Iiwi
+        U3RhdGVDaGFuZ2VNb21lbnQiOnsiRGF0ZVRpbWUiOiJcL0RhdGUoMTQ3Mzc2
+        NTU4NTAwMClcLyIsIk9mZnNldE1pbnV0ZXMiOjE4MH0sIlppcENvZGUiOiIz
+        NDQwMDAifX0=
+    http_version: 
+  recorded_at: Tue, 13 Sep 2016 11:23:51 GMT
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/OrderService/CancelReasonsGet/?login=<OZON_LOGIN>&password=<OZON_PASSWORD>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '418'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 13 Sep 2016 11:25:10 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJFcnJvciI6bnVsbCwiU3RhdHVzIjoyLCJDYW5jZWxSZWFzb25zIjpbeyJJ
+        ZCI6MzMsIk5hbWUiOiLQmNC30LzQtdC90LjQuyDRgNC10YjQtdC90LjQtSDQ
+        viDQv9C+0LrRg9C/0LrQtSJ9LHsiSWQiOjUxLCJOYW1lIjoi0KLQvtCy0LDR
+        gCDQsdGL0Lsg0LfQsNC60LDQt9Cw0L0g0L7RiNC40LHQvtGH0L3QviJ9LHsi
+        SWQiOjYxLCJOYW1lIjoi0J3QtSDRg9GB0YLRgNCw0LjQstCw0Y7RgiDRg9GB
+        0LvQvtCy0LjRj1wv0YHRgNC+0LrQuFwv0YHRgtC+0LjQvNC+0YHRgtGMINC0
+        0L7RgdGC0LDQstC60LgifSx7IklkIjo1MywiTmFtZSI6ItCd0LXRgiDQstC+
+        0LfQvNC+0LbQvdC+0YHRgtC4INC40LfQvNC10L3QuNGC0Ywg0L/QsNGA0LDQ
+        vNC10YLRgNGLINC30LDQutCw0LfQsCJ9LHsiSWQiOjU2LCJOYW1lIjoi0JTR
+        gNGD0LPQvtC1In1dfQ==
+    http_version: 
+  recorded_at: Tue, 13 Sep 2016 11:24:58 GMT
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/OrderService/OrderCancel/?itemString=33040906:1,33040907:2,33040908:3&login=<OZON_LOGIN>&orderNumber=18934603-0001&partnerClientId=hb1&password=<OZON_PASSWORD>&reasonId=56
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 405
+      message: Method Not Allowed
+    headers:
+      Cache-Control:
+      - private
+      Allow:
+      - POST
+      Content-Length:
+      - '1738'
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Tue, 13 Sep 2016 11:29:29 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwh
+        RE9DVFlQRSBodG1sIFBVQkxJQyAiLS8vVzNDLy9EVEQgWEhUTUwgMS4wIFRy
+        YW5zaXRpb25hbC8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9UUi94aHRtbDEv
+        RFREL3hodG1sMS10cmFuc2l0aW9uYWwuZHRkIj4NCjxodG1sIHhtbG5zPSJo
+        dHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIj4NCiAgPGhlYWQ+DQogICAg
+        PHRpdGxlPlNlcnZpY2U8L3RpdGxlPg0KICAgIDxzdHlsZT5CT0RZIHsgY29s
+        b3I6ICMwMDAwMDA7IGJhY2tncm91bmQtY29sb3I6IHdoaXRlOyBmb250LWZh
+        bWlseTogVmVyZGFuYTsgbWFyZ2luLWxlZnQ6IDBweDsgbWFyZ2luLXRvcDog
+        MHB4OyB9ICNjb250ZW50IHsgbWFyZ2luLWxlZnQ6IDMwcHg7IGZvbnQtc2l6
+        ZTogLjcwZW07IHBhZGRpbmctYm90dG9tOiAyZW07IH0gQTpsaW5rIHsgY29s
+        b3I6ICMzMzY2OTk7IGZvbnQtd2VpZ2h0OiBib2xkOyB0ZXh0LWRlY29yYXRp
+        b246IHVuZGVybGluZTsgfSBBOnZpc2l0ZWQgeyBjb2xvcjogIzY2OTljYzsg
+        Zm9udC13ZWlnaHQ6IGJvbGQ7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5l
+        OyB9IEE6YWN0aXZlIHsgY29sb3I6ICMzMzY2OTk7IGZvbnQtd2VpZ2h0OiBi
+        b2xkOyB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsgfSAuaGVhZGluZzEg
+        eyBiYWNrZ3JvdW5kLWNvbG9yOiAjMDAzMzY2OyBib3JkZXItYm90dG9tOiAj
+        MzM2Njk5IDZweCBzb2xpZDsgY29sb3I6ICNmZmZmZmY7IGZvbnQtZmFtaWx5
+        OiBUYWhvbWE7IGZvbnQtc2l6ZTogMjZweDsgZm9udC13ZWlnaHQ6IG5vcm1h
+        bDttYXJnaW46IDBlbSAwZW0gMTBweCAtMjBweDsgcGFkZGluZy1ib3R0b206
+        IDhweDsgcGFkZGluZy1sZWZ0OiAzMHB4O3BhZGRpbmctdG9wOiAxNnB4O30g
+        cHJlIHsgZm9udC1zaXplOnNtYWxsOyBiYWNrZ3JvdW5kLWNvbG9yOiAjZTVl
+        NWNjOyBwYWRkaW5nOiA1cHg7IGZvbnQtZmFtaWx5OiBDb3VyaWVyIE5ldzsg
+        bWFyZ2luLXRvcDogMHB4OyBib3JkZXI6IDFweCAjZjBmMGUwIHNvbGlkOyB3
+        aGl0ZS1zcGFjZTogcHJlLXdyYXA7IHdoaXRlLXNwYWNlOiAtcHJlLXdyYXA7
+        IHdvcmQtd3JhcDogYnJlYWstd29yZDsgfSB0YWJsZSB7IGJvcmRlci1jb2xs
+        YXBzZTogY29sbGFwc2U7IGJvcmRlci1zcGFjaW5nOiAwcHg7IGZvbnQtZmFt
+        aWx5OiBWZXJkYW5hO30gdGFibGUgdGggeyBib3JkZXItcmlnaHQ6IDJweCB3
+        aGl0ZSBzb2xpZDsgYm9yZGVyLWJvdHRvbTogMnB4IHdoaXRlIHNvbGlkOyBm
+        b250LXdlaWdodDogYm9sZDsgYmFja2dyb3VuZC1jb2xvcjogI2NlY2Y5Yzt9
+        IHRhYmxlIHRkIHsgYm9yZGVyLXJpZ2h0OiAycHggd2hpdGUgc29saWQ7IGJv
+        cmRlci1ib3R0b206IDJweCB3aGl0ZSBzb2xpZDsgYmFja2dyb3VuZC1jb2xv
+        cjogI2U1ZTVjYzt9PC9zdHlsZT4NCiAgPC9oZWFkPg0KICA8Ym9keT4NCiAg
+        ICA8ZGl2IGlkPSJjb250ZW50Ij4NCiAgICAgIDxwIGNsYXNzPSJoZWFkaW5n
+        MSI+U2VydmljZTwvcD4NCiAgICAgIDxwIHhtbG5zPSIiPk1ldGhvZCBub3Qg
+        YWxsb3dlZC4gUGxlYXNlIHNlZSB0aGUgPGEgcmVsPSJoZWxwLXBhZ2UiIGhy
+        ZWY9Imh0dHBzOi8vb3dzLm96b24ucnUvUGFydG5lclNlcnZpY2UvT3JkZXJT
+        ZXJ2aWNlL2hlbHAiPnNlcnZpY2UgaGVscCBwYWdlPC9hPiBmb3IgY29uc3Ry
+        dWN0aW5nIHZhbGlkIHJlcXVlc3RzIHRvIHRoZSBzZXJ2aWNlLjwvcD4NCiAg
+        ICA8L2Rpdj4NCiAgPC9ib2R5Pg0KPC9odG1sPg==
+    http_version: 
+  recorded_at: Tue, 13 Sep 2016 11:29:17 GMT
+- request:
+    method: post
+    uri: https://ows.ozon.ru/PartnerService/OrderService/OrderCancel/?itemString=33040906:1,33040907:2,33040908:3&login=<OZON_LOGIN>&orderNumber=18934603-0001&partnerClientId=hb1&password=<OZON_PASSWORD>&reasonId=56
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '87'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 13 Sep 2016 11:29:48 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Error":{"ErrorCode":"Order_ClientOrder_CancelFailed","ErrorMessage":null},"Status":1}'
+    http_version: 
+  recorded_at: Tue, 13 Sep 2016 11:29:36 GMT
+- request:
+    method: post
+    uri: https://ows.ozon.ru/PartnerService/OrderService/OrderCancel/?itemString=33040906:1,33040908:3&login=<OZON_LOGIN>&orderNumber=18934603-0001&partnerClientId=hb1&password=<OZON_PASSWORD>&reasonId=56
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '25'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 13 Sep 2016 11:32:45 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Error":null,"Status":2}'
+    http_version: 
+  recorded_at: Tue, 13 Sep 2016 11:32:32 GMT
+recorded_with: VCR 2.9.3

@@ -1,0 +1,21 @@
+{
+  "Error": null,
+  "Status": 2,
+  "TotalOrder": {
+    "ClientAccountPayment": 0,
+    "DeliveryChoiceName": "В полной комплектации",
+    "DeliverySumm": 1404,
+    "DeliveryVariantName": "DHL Express",
+    "DiscountSumm": 0,
+    "FullOrderSumm": 10209,
+    "IsFreeDeliveryAvailable": false,
+    "ItemSumm": 8805,
+    "ItemSummWithoutDiscount": 8805,
+    "PaymentDiscount": 0,
+    "PaymentTypeName": "Наличный расчет",
+    "ScoreToAdd": 0,
+    "ScoreToAdd2": 0,
+    "ScoreToPay": 0,
+    "TotalScoresDiscountAmountNeeded": 0
+  }
+}
