@@ -26,6 +26,7 @@ module OzonApi
       if out
         out << "Ozon get:\n"
         out << uri.to_s
+        out << "\n"
         out << "Ozon response:\n"
         out << response
         out << "\n"
@@ -48,6 +49,7 @@ module OzonApi
       if out
         out << "Ozon post:\n"
         out << uri.to_s
+        out << "\n"
         out << "Ozon response:\n"
         out << response
         out << "\n"
