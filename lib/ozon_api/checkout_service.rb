@@ -44,7 +44,7 @@ module OzonApi
     def payments_variants_get(partner_client_id:,
                               order_guid:,
                               area_id:,
-                              address_id:,
+                              address_id: 0,
                               delivery_variant_id:)
       @client.get(
         [BASE_PATH, 'PaymentsVariantsGet'].join('/'),
@@ -59,7 +59,7 @@ module OzonApi
     def order_parameters_get_for_collect(partner_client_id:,
                                          order_guid:,
                                          area_id:,
-                                         address_id:,
+                                         address_id: 0,
                                          delivery_variant_id:,
                                          payment_type_id:,
                                          zip_code: nil)
@@ -78,7 +78,7 @@ module OzonApi
     def order_parameters_save(partner_client_id:,
                               order_guid:,
                               area_id:,
-                              address_id:,
+                              address_id: 0,
                               delivery_variant_id:,
                               payment_type_id:,
                               zip_code:,
@@ -99,8 +99,7 @@ module OzonApi
                               apartment: nil,
                               intercom: nil,
                               floor: nil)
-      @client.post(
-        [BASE_PATH, 'OrderParametersSave'].join('/'),
+      params = {
         'partnerClientId': partner_client_id,
         'guidValue': order_guid,
         'areaId': area_id,
@@ -125,7 +124,9 @@ module OzonApi
         'apartment': apartment,
         'intercom': intercom,
         'floor': floor
-      )
+      }
+      params.delete_if { |_, v| v.nil? }
+      @client.post([BASE_PATH, 'OrderParametersSave'].join('/'), params)
     end
 
     def delivery_choices_get
@@ -160,7 +161,7 @@ module OzonApi
                           payment_type_id:,
                           delivery_choice_id:,
                           client_account_sum:,
-                          use_score:)
+                          user_score:)
       @client.get(
         [BASE_PATH, 'OrderSummaryGet'].join('/'),
         'partnerClientId': partner_client_id,
@@ -170,7 +171,7 @@ module OzonApi
         'paymentTypeId': payment_type_id,
         'deliveryChoiceId': delivery_choice_id,
         'clientAccountSum': client_account_sum,
-        'useScore': use_score
+        'userScore': user_score
       )
     end
 
@@ -190,8 +191,7 @@ module OzonApi
                      comment: nil,
                      use_score:,
                      metro_id: 0)
-      @client.post(
-        [BASE_PATH, 'OrderCreate'].join('/'),
+      params = {
         'partnerClientId': partner_client_id,
         'guidValue': order_guid,
         'addressId': address_id,
@@ -208,7 +208,9 @@ module OzonApi
         'comment': comment,
         'useScore': use_score,
         'metroId': metro_id
-      )
+      }
+      params.delete_if { |_, v| v.nil? }
+      @client.post([BASE_PATH, 'OrderCreate'].join('/'), params)
     end
   end
 end

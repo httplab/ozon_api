@@ -1,0 +1,30 @@
+{
+  "Error": null,
+  "Status": 2,
+  "CityInfoList": [
+    {
+      "AreaGroupId": 3,
+      "FullName": "РОСТОВ-НА-ДОНУ, РОСТОВСКАЯ ОБЛАСТЬ",
+      "Id": 9796,
+      "Name": "РОСТОВ-НА-ДОНУ",
+      "ParentId": 9795,
+      "ParentName": "РОСТОВСКАЯ ОБЛАСТЬ"
+    },
+    {
+      "AreaGroupId": 3,
+      "FullName": "РОСТОВКА, ОМСКИЙ РАЙОН",
+      "Id": 29307,
+      "Name": "РОСТОВКА",
+      "ParentId": 29286,
+      "ParentName": "ОМСКИЙ РАЙОН"
+    },
+    {
+      "AreaGroupId": 3,
+      "FullName": "РОСТОВ, ЯРОСЛАВСКАЯ ОБЛАСТЬ",
+      "Id": 927,
+      "Name": "РОСТОВ",
+      "ParentId": 798,
+      "ParentName": "ЯРОСЛАВСКАЯ ОБЛАСТЬ"
+    }
+  ]
+}
