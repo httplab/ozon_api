@@ -1,0 +1,114 @@
+{
+  "Error": null,
+  "Status": 2,
+  "Order": {
+    "AdditionName": "",
+    "AdditionPrice": 0,
+    "AddressId": 139450486,
+    "AddressTail": "Буденновский проспект, дом 35, квартира 12, подъезд 9, код домофона 000, этаж 1",
+    "City": "Ростов-На-Дону",
+    "ClientAccountPaymentValue": 0,
+    "ClientOrderStateId": 7,
+    "Comment": "",
+    "CommentRequired": 1,
+    "Country": "Россия",
+    "DateOrder": {
+      "DateTime": "<datetime>",
+      "OffsetMinutes": 180
+    },
+    "DeliveryChoice": "В полной комплектации",
+    "DeliveryPrice": 1404,
+    "DeliveryVariant": "DHL Express курьерка",
+    "DeliveryVariantId": 481,
+    "DeliveryVariantTypeId": 2,
+    "District": "",
+    "DueDeliveryDate": {
+      "DateTime": "<datetime>",
+      "OffsetMinutes": 180
+    },
+    "FirstName": "Test",
+    "FlexMaxDateTime": null,
+    "FlexMinDateTime": null,
+    "IsOrderCancel": true,
+    "Items": [
+      {
+        "ItemId": 33040908,
+        "ItemType": "Игра",
+        "ItemTypeId": 25,
+        "Name": "Playgo Развивающая игрушка \"Лабиринт с обезьянкой\", 40 см",
+        "Qty": 3,
+        "Annotation": "",
+        "Author": "",
+        "CanceledQty": 0,
+        "ClientOrderId": 37625020,
+        "ComingDate": {
+          "DateTime": "<datetime>",
+          "OffsetMinutes": 180
+        },
+        "HasScoresDiscount": false,
+        "Path": "http://www.ozon.ru/multimedia/audio_cd_covers/small/1012705010.gif",
+        "PreRelease": 0,
+        "PreReleaseDate": {
+          "DateTime": "<datetime>",
+          "OffsetMinutes": 180
+        },
+        "Price": 2103,
+        "ProcessQty": 0,
+        "ResQty": 0,
+        "ScoresAdded": 0,
+        "ScoresDiscountAmountNeeded": 0,
+        "ScoresDiscountPrice": 0,
+        "Url": "http://www.ozon.ru/context/detail/id/33040908/?partner=hellobabyapi"
+      },
+      {
+        "ItemId": 33040906,
+        "ItemType": "Игра",
+        "ItemTypeId": 25,
+        "Name": "Playgo Развивающий игровой центр для самых маленьких",
+        "Qty": 1,
+        "Annotation": "",
+        "Author": "",
+        "CanceledQty": 0,
+        "ClientOrderId": 37625020,
+        "ComingDate": {
+          "DateTime": "<datetime>",
+          "OffsetMinutes": 180
+        },
+        "HasScoresDiscount": false,
+        "Path": "http://www.ozon.ru/multimedia/audio_cd_covers/small/1012705008.gif",
+        "PreRelease": 0,
+        "PreReleaseDate": {
+          "DateTime": "<datetime>",
+          "OffsetMinutes": 180
+        },
+        "Price": 2496,
+        "ProcessQty": 0,
+        "ResQty": 0,
+        "ScoresAdded": 0,
+        "ScoresDiscountAmountNeeded": 0,
+        "ScoresDiscountPrice": 0,
+        "Url": "http://www.ozon.ru/context/detail/id/33040906/?partner=hellobabyapi"
+      }
+    ],
+    "LastName": "Test",
+    "MaxSpasibo": 0,
+    "MiddleName": "",
+    "OrderSumm": 8805,
+    "PayOrderSumm": 10209,
+    "PaymentType": "Наличный расчет",
+    "PaymentTypeId": 60,
+    "Phone": "9090000000",
+    "PhoneRequired": 1,
+    "Postings": null,
+    "Region": null,
+    "ScoreToAdd": 0,
+    "ScoreToPay": 0,
+    "ShowRepeatOrder": 0,
+    "State": "Ожидает начала обработки",
+    "StateChangeMoment": {
+      "DateTime": "<datetime>",
+      "OffsetMinutes": 180
+    },
+    "ZipCode": "344000"
+  }
+}

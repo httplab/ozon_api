@@ -1,0 +1,206 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/AddressService/SearchCities/?limit=20&login=<OZON_LOGIN>&password=<OZON_PASSWORD>&searchText=%D0%A0%D0%BE%D1%81%D1%82
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '4018'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 14 Sep 2016 11:15:13 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJFcnJvciI6bnVsbCwiU3RhdHVzIjoyLCJDaXR5SW5mb0xpc3QiOlt7IkFy
+        ZWFHcm91cElkIjozLCJGdWxsTmFtZSI6ItCg0J7QodCi0JDQqNCYLCDQkNCg
+        0JrQkNCU0JDQmtCh0JrQmNCZINCg0JDQmdCe0J0iLCJJZCI6MTY3NTEsIk5h
+        bWUiOiLQoNCe0KHQotCQ0KjQmCIsIlBhcmVudElkIjoxNjc0NiwiUGFyZW50
+        TmFtZSI6ItCQ0KDQmtCQ0JTQkNCa0KHQmtCY0Jkg0KDQkNCZ0J7QnSJ9LHsi
+        QXJlYUdyb3VwSWQiOjMsIkZ1bGxOYW1lIjoi0KDQntCh0KLQmNCb0J7QktCe
+        LCDQk9Cg0K/Ql9Ce0JLQldCm0JrQmNCZINCg0JDQmdCe0J0iLCJJZCI6MjE0
+        NiwiTmFtZSI6ItCg0J7QodCi0JjQm9Ce0JLQniIsIlBhcmVudElkIjoyMTQ0
+        LCJQYXJlbnROYW1lIjoi0JPQoNCv0JfQntCS0JXQptCa0JjQmSDQoNCQ0JnQ
+        ntCdIn0seyJBcmVhR3JvdXBJZCI6MywiRnVsbE5hbWUiOiLQoNCe0KHQotCe
+        0JIsINCv0KDQntCh0JvQkNCS0KHQmtCQ0K8g0J7QkdCb0JDQodCi0KwiLCJJ
+        ZCI6OTI3LCJOYW1lIjoi0KDQntCh0KLQntCSIiwiUGFyZW50SWQiOjc5OCwi
+        UGFyZW50TmFtZSI6ItCv0KDQntCh0JvQkNCS0KHQmtCQ0K8g0J7QkdCb0JDQ
+        odCi0KwifSx7IkFyZWFHcm91cElkIjozLCJGdWxsTmFtZSI6ItCg0J7QodCi
+        0J7QktCQ0J3QntCS0KHQmtCe0JUsINCa0KPQoNCh0JrQmNCZINCg0JDQmdCe
+        0J0iLCJJZCI6MTE5NDQsIk5hbWUiOiLQoNCe0KHQotCe0JLQkNCd0J7QktCh
+        0JrQntCVIiwiUGFyZW50SWQiOjExOTM1LCJQYXJlbnROYW1lIjoi0JrQo9Cg
+        0KHQmtCY0Jkg0KDQkNCZ0J7QnSJ9LHsiQXJlYUdyb3VwSWQiOjUsIkZ1bGxO
+        YW1lIjoi0KDQvtGB0YLQvtCy0LrQsCwg0JHRg9GF0LDRgCDQttC40YDQsNGD
+        0YHQutC40Lkg0YDQsNC50L7QvSIsIklkIjo0ODYzMywiTmFtZSI6ItCg0L7R
+        gdGC0L7QstC60LAiLCJQYXJlbnRJZCI6NDYzOTQsIlBhcmVudE5hbWUiOiLQ
+        kdGD0YXQsNGAINC20LjRgNCw0YPRgdC60LjQuSDRgNCw0LnQvtC9In0seyJB
+        cmVhR3JvdXBJZCI6MywiRnVsbE5hbWUiOiLQoNCe0KHQotCe0JLQmtCQLCDQ
+        ntCc0KHQmtCY0Jkg0KDQkNCZ0J7QnSIsIklkIjoyOTMwNywiTmFtZSI6ItCg
+        0J7QodCi0J7QktCa0JAiLCJQYXJlbnRJZCI6MjkyODYsIlBhcmVudE5hbWUi
+        OiLQntCc0KHQmtCY0Jkg0KDQkNCZ0J7QnSJ9LHsiQXJlYUdyb3VwSWQiOjMs
+        IkZ1bGxOYW1lIjoi0KDQntCh0KLQntCS0JrQkCwg0JHQo9CT0KPQm9Cs0JzQ
+        mNCd0KHQmtCY0Jkg0KDQkNCZ0J7QnSIsIklkIjoxODI2MCwiTmFtZSI6ItCg
+        0J7QodCi0J7QktCa0JAiLCJQYXJlbnRJZCI6MTgyNDYsIlBhcmVudE5hbWUi
+        OiLQkdCj0JPQo9Cb0KzQnNCY0J3QodCa0JjQmSDQoNCQ0JnQntCdIn0seyJB
+        cmVhR3JvdXBJZCI6MywiRnVsbE5hbWUiOiLQoNCe0KHQotCe0JIt0J3QkC3Q
+        lNCe0J3Qoywg0KDQntCh0KLQntCS0KHQmtCQ0K8g0J7QkdCb0JDQodCi0Kwi
+        LCJJZCI6OTc5NiwiTmFtZSI6ItCg0J7QodCi0J7Qki3QndCQLdCU0J7QndCj
+        IiwiUGFyZW50SWQiOjk3OTUsIlBhcmVudE5hbWUiOiLQoNCe0KHQotCe0JLQ
+        odCa0JDQryDQntCR0JvQkNCh0KLQrCJ9LHsiQXJlYUdyb3VwSWQiOjMsIkZ1
+        bGxOYW1lIjoi0KDQntCh0KLQntCS0KHQmtCe0JUsINCS0JjQndCe0JPQoNCQ
+        0JTQntCS0KHQmtCY0Jkg0KDQkNCZ0J7QnSIsIklkIjoyNjc5LCJOYW1lIjoi
+        0KDQntCh0KLQntCS0KHQmtCe0JUiLCJQYXJlbnRJZCI6MjY3MywiUGFyZW50
+        TmFtZSI6ItCS0JjQndCe0JPQoNCQ0JTQntCS0KHQmtCY0Jkg0KDQkNCZ0J7Q
+        nSJ9LHsiQXJlYUdyb3VwSWQiOjUsIkZ1bGxOYW1lIjoi0KDQvtGB0YLQvtGI
+        0LgsINCX0LXQu9C10L3QvtCy0YHQutC40Lkg0YDQsNC50L7QvSIsIklkIjo0
+        ODYzNCwiTmFtZSI6ItCg0L7RgdGC0L7RiNC4IiwiUGFyZW50SWQiOjQ2NDIz
+        LCJQYXJlbnROYW1lIjoi0JfQtdC70LXQvdC+0LLRgdC60LjQuSDRgNCw0LnQ
+        vtC9In0seyJBcmVhR3JvdXBJZCI6MywiRnVsbE5hbWUiOiLQoNCe0KHQotCe
+        0KjQmCwg0K3QoNCi0JjQm9Cs0KHQmtCY0Jkg0KDQkNCZ0J7QnSIsIklkIjox
+        NTA2MiwiTmFtZSI6ItCg0J7QodCi0J7QqNCYIiwiUGFyZW50SWQiOjE1MDUz
+        LCJQYXJlbnROYW1lIjoi0K3QoNCi0JjQm9Cs0KHQmtCY0Jkg0KDQkNCZ0J7Q
+        nSJ9LHsiQXJlYUdyb3VwSWQiOjYsIkZ1bGxOYW1lIjoi0JHQvtC70YzRiNC+
+        0Lkg0KLRgNC+0YHRgtC10L3QtdGGLCDQnNC40L3RgdC60LDRjyDQvtCx0LvQ
+        sNGB0YLRjCIsIklkIjo1MzQ2NSwiTmFtZSI6ItCR0L7Qu9GM0YjQvtC5INCi
+        0YDQvtGB0YLQtdC90LXRhiIsIlBhcmVudElkIjo1MjE4MCwiUGFyZW50TmFt
+        ZSI6ItCc0LjQvdGB0LrQsNGPINC+0LHQu9Cw0YHRgtGMIn0seyJBcmVhR3Jv
+        dXBJZCI6MywiRnVsbE5hbWUiOiLQktCV0KDQpdCd0JjQlSDQoNCe0KHQotCQ
+        0KjQmCwg0JHQntCb0KzQqNCV0KfQldCg0J3QmNCT0J7QktCh0JrQmNCZINCg
+        0JDQmdCe0J0iLCJJZCI6MjEyMTksIk5hbWUiOiLQktCV0KDQpdCd0JjQlSDQ
+        oNCe0KHQotCQ0KjQmCIsIlBhcmVudElkIjoyMTIwMywiUGFyZW50TmFtZSI6
+        ItCR0J7Qm9Cs0KjQldCn0JXQoNCd0JjQk9Ce0JLQodCa0JjQmSDQoNCQ0JnQ
+        ntCdIn0seyJBcmVhR3JvdXBJZCI6MywiRnVsbE5hbWUiOiLQlNCe0JHQoNCe
+        0KHQotCYLCDQmtCg0JXQodCi0JXQptCa0JjQmSDQoNCQ0JnQntCdIiwiSWQi
+        OjQ1ODMsIk5hbWUiOiLQlNCe0JHQoNCe0KHQotCYIiwiUGFyZW50SWQiOjQ1
+        NzQsIlBhcmVudE5hbWUiOiLQmtCg0JXQodCi0JXQptCa0JjQmSDQoNCQ0JnQ
+        ntCdIn0seyJBcmVhR3JvdXBJZCI6MywiRnVsbE5hbWUiOiLQl9CV0KDQndCe
+        0JPQoNCQ0JQgLCDQoNC+0YHRgtC+0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLR
+        jCwg0JfQldCg0J3QntCT0KDQkNCU0KHQmtCY0Jkg0KDQkNCZ0J7QnSIsIklk
+        IjoxMDYxNiwiTmFtZSI6ItCX0JXQoNCd0J7Qk9Cg0JDQlCAsINCg0L7RgdGC
+        0L7QstGB0LrQsNGPINC+0LHQu9Cw0YHRgtGMIiwiUGFyZW50SWQiOjEwNTk5
+        LCJQYXJlbnROYW1lIjoi0JfQldCg0J3QntCT0KDQkNCU0KHQmtCY0Jkg0KDQ
+        kNCZ0J7QnSJ9LHsiQXJlYUdyb3VwSWQiOjMsIkZ1bGxOYW1lIjoi0JrQntCg
+        0J7QodCi0JXQm9CV0JLQniwg0JjQoNCR0JXQmdCh0JrQmNCZINCg0JDQmdCe
+        0J0iLCJJZCI6MzIwMDAsIk5hbWUiOiLQmtCe0KDQntCh0KLQldCb0JXQktCe
+        IiwiUGFyZW50SWQiOjMxOTkwLCJQYXJlbnROYW1lIjoi0JjQoNCR0JXQmdCh
+        0JrQmNCZINCg0JDQmdCe0J0ifSx7IkFyZWFHcm91cElkIjozLCJGdWxsTmFt
+        ZSI6ItCa0J7QoNCe0KHQotCV0JvQldCS0J4sINCR0J7QoNCe0JLQodCa0JjQ
+        mSDQoNCQ0JnQntCdIiwiSWQiOjcyNDQsIk5hbWUiOiLQmtCe0KDQntCh0KLQ
+        ldCb0JXQktCeIiwiUGFyZW50SWQiOjcyMzUsIlBhcmVudE5hbWUiOiLQkdCe
+        0KDQntCS0KHQmtCY0Jkg0KDQkNCZ0J7QnSJ9LHsiQXJlYUdyb3VwSWQiOjMs
+        IkZ1bGxOYW1lIjoi0JrQntCg0J7QodCi0JXQm9CV0JLQniwg0KHQr9Cc0JbQ
+        ldCd0KHQmtCY0Jkg0KDQkNCZ0J7QnSIsIklkIjoyMjE2LCJOYW1lIjoi0JrQ
+        ntCg0J7QodCi0JXQm9CV0JLQniIsIlBhcmVudElkIjoyMjEwLCJQYXJlbnRO
+        YW1lIjoi0KHQr9Cc0JbQldCd0KHQmtCY0Jkg0KDQkNCZ0J7QnSJ9LHsiQXJl
+        YUdyb3VwSWQiOjUsIkZ1bGxOYW1lIjoi0JrQvtGA0L7RgdGC0LXQu9C4LCDQ
+        kdC+0YDQvtC00YPQu9C40YXQuNC90YHQutC40Lkg0YDQsNC50L7QvSIsIklk
+        Ijo0Nzk1OSwiTmFtZSI6ItCa0L7RgNC+0YHRgtC10LvQuCIsIlBhcmVudElk
+        Ijo0NjM5MiwiUGFyZW50TmFtZSI6ItCR0L7RgNC+0LTRg9C70LjRhdC40L3R
+        gdC60LjQuSDRgNCw0LnQvtC9In0seyJBcmVhR3JvdXBJZCI6MywiRnVsbE5h
+        bWUiOiLQmtCe0KDQntCh0KLQldCb0JgsINCd0J7QktCe0KHQntCa0J7Qm9Cs
+        0J3QmNCn0JXQodCa0JjQmSDQoNCQ0JnQntCdIiwiSWQiOjQ4NTMsIk5hbWUi
+        OiLQmtCe0KDQntCh0KLQldCb0JgiLCJQYXJlbnRJZCI6NDg0MiwiUGFyZW50
+        TmFtZSI6ItCd0J7QktCe0KHQntCa0J7Qm9Cs0J3QmNCn0JXQodCa0JjQmSDQ
+        oNCQ0JnQntCdIn1dfQ==
+    http_version: 
+  recorded_at: Wed, 14 Sep 2016 11:15:02 GMT
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/AddressService/GetCities/?citiIds=9796,927,29307&login=<OZON_LOGIN>&password=<OZON_PASSWORD>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '598'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 14 Sep 2016 11:21:25 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJFcnJvciI6bnVsbCwiU3RhdHVzIjoyLCJDaXR5SW5mb0xpc3QiOlt7IkFy
+        ZWFHcm91cElkIjozLCJGdWxsTmFtZSI6ItCg0J7QodCi0J7Qki3QndCQLdCU
+        0J7QndCjLCDQoNCe0KHQotCe0JLQodCa0JDQryDQntCR0JvQkNCh0KLQrCIs
+        IklkIjo5Nzk2LCJOYW1lIjoi0KDQntCh0KLQntCSLdCd0JAt0JTQntCd0KMi
+        LCJQYXJlbnRJZCI6OTc5NSwiUGFyZW50TmFtZSI6ItCg0J7QodCi0J7QktCh
+        0JrQkNCvINCe0JHQm9CQ0KHQotCsIn0seyJBcmVhR3JvdXBJZCI6MywiRnVs
+        bE5hbWUiOiLQoNCe0KHQotCe0JLQmtCQLCDQntCc0KHQmtCY0Jkg0KDQkNCZ
+        0J7QnSIsIklkIjoyOTMwNywiTmFtZSI6ItCg0J7QodCi0J7QktCa0JAiLCJQ
+        YXJlbnRJZCI6MjkyODYsIlBhcmVudE5hbWUiOiLQntCc0KHQmtCY0Jkg0KDQ
+        kNCZ0J7QnSJ9LHsiQXJlYUdyb3VwSWQiOjMsIkZ1bGxOYW1lIjoi0KDQntCh
+        0KLQntCSLCDQr9Cg0J7QodCb0JDQktCh0JrQkNCvINCe0JHQm9CQ0KHQotCs
+        IiwiSWQiOjkyNywiTmFtZSI6ItCg0J7QodCi0J7QkiIsIlBhcmVudElkIjo3
+        OTgsIlBhcmVudE5hbWUiOiLQr9Cg0J7QodCb0JDQktCh0JrQkNCvINCe0JHQ
+        m9CQ0KHQotCsIn1dfQ==
+    http_version: 
+  recorded_at: Wed, 14 Sep 2016 11:21:13 GMT
+- request:
+    method: get
+    uri: https://ows.ozon.ru/PartnerService/AddressService/SearchStreets/?cityId=9796&limit=20&login=<OZON_LOGIN>&password=<OZON_PASSWORD>&searchText=1-%D0%B9%20%D0%9A%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9%20%D0%90%D1%80%D0%BC%D0%B8%D0%B8&searchTextMatchPreferred=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - ows.ozon.ru
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Length:
+      - '45'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 14 Sep 2016 11:47:10 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Error":null,"Status":2,"StreetInfoList":[]}'
+    http_version: 
+  recorded_at: Wed, 14 Sep 2016 11:46:58 GMT
+recorded_with: VCR 2.9.3

@@ -35,7 +35,7 @@ describe OzonApi::ItemService do
   end
 
   describe '#items_by_id_list_get' do
-    let(:item_ids) { ['33040907', '33040908', 33040909] }
+    let(:item_ids) { ['33040907', '33040908', 33_040_909] }
 
     it 'returns items info' do
       VCR.use_cassette(*vcr_options) do

@@ -1,0 +1,157 @@
+{
+  "Error": null,
+  "Status": 2,
+  "CartItems": [
+    {
+      "Author": "",
+      "Availability": "Отгружается в течение 7-10 дней (+время доставки)",
+      "AvailabilityDate": {
+        "DateTime": "<datetime>",
+        "OffsetMinutes": 180
+      },
+      "ClientPrice": 2103,
+      "ClientPriceCurrency": 2103,
+      "Discount": 0,
+      "ExemplarQty": 0,
+      "HasScoresDiscount": false,
+      "IsDelayed": false,
+      "ItemAvailabilityId": 6,
+      "ItemId": 33040908,
+      "ItemType": "Игра",
+      "ItemTypeId": 25,
+      "ModifyDate": {
+        "DateTime": "<datetime>",
+        "OffsetMinutes": 180
+      },
+      "Name": "Playgo Развивающая игрушка \"Лабиринт с обезьянкой\", 40 см",
+      "Notify": false,
+      "OtherName": "",
+      "Path": "http://www.ozon.ru/multimedia/audio_cd_covers/l60/1012705010.jpg",
+      "PreReleaseDate": {
+        "DateTime": "<datetime>",
+        "OffsetMinutes": 180
+      },
+      "Price": 2103,
+      "PriceCurrency": 2103,
+      "Quantity": 3,
+      "RequiredQty": 0,
+      "ScoresDiscountAmountNeeded": 0,
+      "ScoresDiscountPrice": 0,
+      "ShowOrder": false,
+      "SpecialPrice": 0,
+      "SuiteCount": 0,
+      "SuiteId": 0,
+      "Weight": 3150
+    },
+    {
+      "Author": "",
+      "Availability": "На складе",
+      "AvailabilityDate": {
+        "DateTime": "<datetime>",
+        "OffsetMinutes": 180
+      },
+      "ClientPrice": 2496,
+      "ClientPriceCurrency": 2496,
+      "Discount": 0,
+      "ExemplarQty": 0,
+      "HasScoresDiscount": false,
+      "IsDelayed": false,
+      "ItemAvailabilityId": 1,
+      "ItemId": 33040906,
+      "ItemType": "Игра",
+      "ItemTypeId": 25,
+      "ModifyDate": {
+        "DateTime": "<datetime>",
+        "OffsetMinutes": 180
+      },
+      "Name": "Playgo Развивающий игровой центр для самых маленьких",
+      "Notify": false,
+      "OtherName": "",
+      "Path": "http://www.ozon.ru/multimedia/audio_cd_covers/l60/1012705008.jpg",
+      "PreReleaseDate": {
+        "DateTime": "<datetime>",
+        "OffsetMinutes": 180
+      },
+      "Price": 2496,
+      "PriceCurrency": 2496,
+      "Quantity": 1,
+      "RequiredQty": 0,
+      "ScoresDiscountAmountNeeded": 0,
+      "ScoresDiscountPrice": 0,
+      "ShowOrder": false,
+      "SpecialPrice": 0,
+      "SuiteCount": 0,
+      "SuiteId": 0,
+      "Weight": 1001
+    }
+  ],
+  "CartSummary": {
+    "ClientAccount": 0,
+    "Discount": 0,
+    "DoneMinDate": "26.09.16",
+    "FullSum": 8805,
+    "FullWeight": 4151,
+    "ItemQty": 0,
+    "ScoreToAdd": 0,
+    "ScoreToPay": 0,
+    "ScoreValue": 0,
+    "Sum": 8805
+  },
+  "DelayedCartItems": null,
+  "PreReleaseCartItems": null,
+  "PreReleaseCartSummary": {
+    "ClientAccount": 0,
+    "Discount": 0,
+    "DoneMinDate": null,
+    "FullSum": 0,
+    "FullWeight": 0,
+    "ItemQty": 0,
+    "ScoreToAdd": 0,
+    "ScoreToPay": 0,
+    "ScoreValue": 0,
+    "Sum": 0
+  },
+  "ProposalCartItems": [
+    {
+      "Author": "",
+      "Availability": "Товар отсутствует",
+      "AvailabilityDate": {
+        "DateTime": "<datetime>",
+        "OffsetMinutes": 180
+      },
+      "ClientPrice": 4433,
+      "ClientPriceCurrency": 4433,
+      "Discount": 0,
+      "ExemplarQty": 0,
+      "HasScoresDiscount": false,
+      "IsDelayed": false,
+      "ItemAvailabilityId": 5,
+      "ItemId": 33040907,
+      "ItemType": "Игра",
+      "ItemTypeId": 25,
+      "ModifyDate": {
+        "DateTime": "<datetime>",
+        "OffsetMinutes": 180
+      },
+      "Name": "Playgo Активный центр-стол",
+      "Notify": false,
+      "OtherName": "",
+      "Path": "http://www.ozon.ru/multimedia/audio_cd_covers/l60/1012705009.jpg",
+      "PreReleaseDate": {
+        "DateTime": "<datetime>",
+        "OffsetMinutes": 180
+      },
+      "Price": 4433,
+      "PriceCurrency": 4433,
+      "Quantity": 2,
+      "RequiredQty": 0,
+      "ScoresDiscountAmountNeeded": 0,
+      "ScoresDiscountPrice": 0,
+      "ShowOrder": false,
+      "SpecialPrice": 0,
+      "SuiteCount": 0,
+      "SuiteId": 0,
+      "Weight": 4200
+    }
+  ]
+}

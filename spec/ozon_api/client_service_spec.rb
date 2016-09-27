@@ -13,7 +13,7 @@ describe OzonApi::ClientService do
   let(:last_name) { 'Morris' }
 
   let(:vcr_options) do
-    ['client_service', { record: :new_episodes,  match_requests_on: [:method, :uri] }]
+    ['client_service', { record: :new_episodes, match_requests_on: [:method, :uri] }]
   end
 
   describe '#client_check_email' do

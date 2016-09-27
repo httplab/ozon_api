@@ -19,13 +19,13 @@ module OzonApi
 
     def get(path, params = {})
       uri = URI("#{scheme}://#{host}/#{base_path}/#{path}/")
-      params.merge!(default_params)
-      uri.query = URI.encode_www_form(params)
+      uri.query = URI.encode_www_form(default_params.merge(params))
       response = Net::HTTP.get(uri)
 
       if out
         out << "Ozon get:\n"
         out << uri.to_s
+        out << "\n"
         out << "Ozon response:\n"
         out << response
         out << "\n"
@@ -48,6 +48,7 @@ module OzonApi
       if out
         out << "Ozon post:\n"
         out << uri.to_s
+        out << "\n"
         out << "Ozon response:\n"
         out << response
         out << "\n"
