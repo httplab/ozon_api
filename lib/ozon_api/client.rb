@@ -102,7 +102,7 @@ module OzonApi
       if result['Status'] == SUCCESS_STATUS && result['Error'].nil?
         result
       else
-        raise ApiError, result
+        raise ApiError, data
       end
     end
   end
