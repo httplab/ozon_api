@@ -27,7 +27,7 @@ module OzonApi
           search_text:,
           search_text_match_preferred:,
           limit: 20
-        )
+    )
       @client.get(
         [BASE_PATH, 'SearchStreets'].join('/'),
         'cityId': city_id,
@@ -36,6 +36,5 @@ module OzonApi
         'limit': limit
       )
     end
-
   end
 end

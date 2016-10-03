@@ -4,13 +4,12 @@ require 'shared_contexts/having_configured_client'
 
 describe OzonApi::ItemService do
   include_context 'having configured client'
-  let(:subject) { described_class.new(client) }
   let(:partner_client_id) { 1 }
   let(:vcr_options) do
     [
       'item_service',
       {
-        record: :new_episodes,
+        record: :once,
         match_requests_on: [:method, :uri]
       }
     ]

@@ -5,10 +5,8 @@ require 'shared_contexts/having_configured_client'
 describe OzonApi::AddressService do
   include_context 'having configured client'
 
-  let(:subject) { described_class.new(client) }
-
   let(:vcr_options) do
-    ['address_service', { record: :new_episodes, match_requests_on: [:method, :uri] }]
+    ['address_service', { record: :once, match_requests_on: [:method, :uri] }]
   end
 
   describe '#search_cities' do
@@ -22,7 +20,7 @@ describe OzonApi::AddressService do
   end
 
   describe '#get_cities' do
-    let(:city_ids) { [9796, 927, 29307] }
+    let(:city_ids) { [9796, 927, 29_307] }
 
     it 'returns a list of cities info' do
       VCR.use_cassette(*vcr_options) do
@@ -41,7 +39,7 @@ describe OzonApi::AddressService do
           subject.search_streets(
             city_id: city_id,
             search_text: search_text,
-            search_text_match_preferred: false
+            search_text_match_preferred: true
           )
         end
       end

@@ -50,6 +50,5 @@ module OzonApi
         'reasonId': reason_id
       )
     end
-
   end
 end

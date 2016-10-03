@@ -5,11 +5,10 @@ require 'shared_contexts/having_configured_client'
 describe OzonApi::CartService do
   include_context 'having configured client'
 
-  let(:subject) { described_class.new(client) }
   let(:partner_client_id) { 'hb1' }
 
   let(:vcr_options) do
-    ['cart_service', { record: :new_episodes, match_requests_on: [:method, :uri] }]
+    ['cart_service', { record: :once, match_requests_on: [:method, :uri] }]
   end
 
   describe '#cart_get' do

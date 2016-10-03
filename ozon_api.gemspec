@@ -16,4 +16,6 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.files = Dir['{lib}/**/*', 'LICENSE', 'README.md']
+
+  s.add_dependency 'activemodel'
 end

@@ -5,11 +5,10 @@ require 'shared_contexts/having_configured_client'
 describe OzonApi::CheckoutService do
   include_context 'having configured client'
 
-  let(:subject) { described_class.new(client) }
   let(:partner_client_id) { 'hb1' }
 
   let(:vcr_options) do
-    ['checkout_service', { record: :new_episodes, match_requests_on: [:method, :uri] }]
+    ['checkout_service', { record: :once, match_requests_on: [:method, :uri] }]
   end
 
   let(:order_guid) do
@@ -205,7 +204,7 @@ describe OzonApi::CheckoutService do
               payment_type_id: payment_type_id,
               delivery_choice_id: delivery_choice_id,
               client_account_sum: client_account_sum,
-              use_score: use_score
+              user_score: use_score
             )
           end
         end

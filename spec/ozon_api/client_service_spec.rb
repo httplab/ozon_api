@@ -5,7 +5,6 @@ require 'shared_contexts/having_configured_client'
 describe OzonApi::ClientService do
   include_context 'having configured client'
 
-  let(:subject) { described_class.new(client) }
   let(:client_id) { 'hb1' }
   let(:email) { 'user@httplab.ru' }
   let(:password) { 'userhttplab' }
@@ -13,7 +12,7 @@ describe OzonApi::ClientService do
   let(:last_name) { 'Morris' }
 
   let(:vcr_options) do
-    ['client_service', { record: :new_episodes, match_requests_on: [:method, :uri] }]
+    ['client_service', { record: :once, match_requests_on: [:method, :uri] }]
   end
 
   describe '#client_check_email' do

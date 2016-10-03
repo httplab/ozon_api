@@ -6,7 +6,6 @@ module NullStream
 end
 
 RSpec.shared_context 'having configured client' do
-  let(:client) do
-    OzonApi::Client.new(out: STDOUT)
-  end
+  let!(:config) { OzonApi.setup }
+  let(:subject) { OzonApi }
 end

@@ -5,16 +5,12 @@ require 'json'
 
 module OzonApi
   class Client
-    InvalidConfigurationError = Class.new(StandardError)
     ApiError = Class.new(StandardError)
 
-    CONFIGURATION_KEYS = [:scheme, :host, :base_path, :login, :password, :out].freeze
     SUCCESS_STATUS = 2
 
-    def initialize(hsh = {})
-      @config = hsh.select do |key, _|
-        CONFIGURATION_KEYS.include? key.to_sym
-      end
+    def initialize(configuration)
+      @config = configuration
     end
 
     def get(path, params = {})
@@ -67,33 +63,27 @@ module OzonApi
     end
 
     def base_path
-      @base_path ||= @config[:base_path] || 'PartnerService'
+      @config.base_path
     end
 
     def scheme
-      @scheme ||= @config[:scheme] || 'https'
+      @config.scheme
     end
 
     def host
-      @host ||= @config[:host] || 'ows.ozon.ru'
+      @config.host
     end
 
     def login
-      return @login if @login
-      @login = @config[:login] || ENV['OZON_LOGIN']
-      raise InvalidConfigurationError, 'Missing OZON_LOGIN' if @login.nil?
-      @login
+      @config.login
     end
 
     def password
-      return @password if @password
-      @password = @config[:password] || ENV['OZON_PASSWORD']
-      raise InvalidConfigurationError, 'Missing OZON_PASSWORD' if @password.nil?
-      @password
+      @config.password
     end
 
     def out
-      @config[:out]
+      @config.out
     end
 
     def parse_response(data)

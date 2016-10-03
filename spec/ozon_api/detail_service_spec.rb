@@ -4,13 +4,12 @@ require 'shared_contexts/having_configured_client'
 
 describe OzonApi::DetailService do
   include_context 'having configured client'
-  let(:subject) { described_class.new(client) }
   let(:detail_id) { '33040909' }
   let(:vcr_options) do
     [
       'detail_service',
       {
-        record: :new_episodes,
+        record: :once,
         match_requests_on: [:method, :uri]
       }
     ]
