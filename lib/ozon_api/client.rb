@@ -22,7 +22,7 @@ module OzonApi
         out << "Ozon get:\n"
         out << uri.to_s
         out << "\n"
-        out << "Ozon response:\n"
+        out << "Ozon plain response:\n"
         out << response
         out << "\n"
       end
@@ -86,8 +86,17 @@ module OzonApi
       @config.out
     end
 
+    def debug
+      @config.debug
+    end
+
     def parse_response(data)
       result = JSON.parse(data)
+      if out && debug
+        out << "Ozon response json:\n"
+        out << result
+        out << "\n"
+      end
 
       if result['Status'] == SUCCESS_STATUS && result['Error'].nil?
         result

@@ -6,7 +6,7 @@ module OzonApi
     include ActiveModel::Validations
 
     def self.attribute_names
-      [:scheme, :host, :base_path, :login, :password, :out]
+      [:scheme, :host, :base_path, :login, :password, :out, :debug]
     end
 
     def attribute_names
@@ -24,6 +24,7 @@ module OzonApi
       @login = ENV['OZON_LOGIN']
       @password = ENV['OZON_PASSWORD']
       @out = STDOUT
+      @debug = false
 
       yield(self) if block_given?
 
